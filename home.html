@@ -1,0 +1,1279 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Text">
+    <title>Dental-home</title>
+    <meta name="theme-color" content="#3D4356">
+    <link rel="preload" as="image" href="assets/images/png/main-img1.webp">
+    <link rel="preload" as="image" href="assets/images/svg/logo.svg">
+    <link rel="icon" type="image/png" href="assets/images/png/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/images/png/favicon-16x16.png"><link rel="preconnect" href="https://cdnjs.cloudflare.com">
+<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  <link href="assets/css/app.css?v=1669196617626" rel="stylesheet"></head>
+  <body>
+<div class="preloader">
+  <div class="preloader-logo"><img src="assets/images/svg/logo.svg" alt=""></div>
+  <div class="preloader-line">
+    <div class="preloader-loading"></div>
+  </div>
+</div>
+<script>
+  let preloader = document.querySelector('.preloader');
+  if (!(document.referrer.indexOf('dental') == -1) || !(location.href.indexOf('localhost') == -1)) {
+    preloader.remove();
+  }
+  
+  
+  setTimeout(function () {
+    if (preloader) {
+      setTimeout(function () {
+        preloader.classList.add('preloader--hide');
+      }, 1000);
+  
+      setTimeout(function () {
+        preloader.style.display = 'none';
+      }, 2500);
+    }
+  }, 500);
+</script>
+<header class="header">
+  <div class="center-wrap">
+    <div class="header__wrap"><a class="header__logo single-anchors img-wrap" href="index.html#home">
+        <div><img src="assets/images/svg/logo.svg" alt=""></div></a>
+      <nav class="header__nav mobile--hide">
+        <ul class="header__nav-list">
+          <li class="header__nav-item header__nav-item--drop"><a class="header__nav-link" href="#">Стоматологія</a>
+            <div class="header__drop">
+              <ul class="header__drop-list">
+                <li class="header__drop-item"> 
+                  <div class="header__drop-link">
+                     Протезування зубів
+                    <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L6 5.73684L1 11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                  <ul class="header__drop2">
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Лікування карієсу</a></li>
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Пломбування зубів</a></li>
+                  </ul>
+                </li>
+                <li class="header__drop-item"> 
+                  <div class="header__drop-link">Імплантація зубів
+                    <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L6 5.73684L1 11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </li>
+                <li class="header__drop-item"> 
+                  <div class="header__drop-link">
+                     Лікування зубів
+                    <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L6 5.73684L1 11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                  <ul class="header__drop2">
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Лікування карієсу</a></li>
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Пломбування зубів</a></li>
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Художня реставрація</a></li>
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Медикаментозний сон</a></li>
+                    <li class="header__drop2-item"> <a class="header__drop2-link" href="#">Пломбування зубів</a></li>
+                  </ul>
+                </li>
+                <li class="header__drop-item"> 
+                  <div class="header__drop-link">Хірургічна стоматологія
+                    <svg viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1 1L6 5.73684L1 11" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/">Косметологія</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/">Про нас</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/">Портфоліо</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/">Новини</a></li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="header__phone"><a href="tel:380976425230"> 
+          <p>+38 (097) 642 52 30</p></a></div>
+      <div class="header__burger desktop--hide">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+  </div>
+</header>
+    <div id="scrollbar">
+      <main>
+<section class="main-slider" id="home">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="main-bl__wrap"> 
+          <div class="main-bl__left img-wrap">
+            <picture>
+              <source srcset="assets/images/png/main-img1.webp" type="image/webp"><img src="assets/images/png/main-img1.png" alt="">
+            </picture>
+          </div>
+          <div class="main-bl__right">
+            <div class="main-bl__right-top">
+              <h1 class="main-bl__simple-title simple-title simple-title--left">Ультрасучасна стоматологія нового покоління</h1>
+            </div>
+            <div class="main-bl__right-bottom">
+              <div class="main-bl__content content">
+                <p>Весь спектр стоматологічних послуг та комплексний підхід до вирішення будь-яких завдань в центрі Івано-Франківська</p>
+              </div>
+              <div class="main-bl__btn">
+                <div class="btn" onclick="show_popup('form')"> 
+                  <div class="btn__title">Швидкий запис</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="main-bl__wrap"> 
+          <div class="main-bl__left img-wrap">
+            <picture>
+              <source srcset="assets/images/png/main-img2.webp" type="image/webp"><img src="assets/images/png/main-img2.png" alt="">
+            </picture>
+          </div>
+          <div class="main-bl__right">
+            <div class="main-bl__right-top">
+              <h1 class="main-bl__simple-title simple-title simple-title--left">Ультрасучасна косметологія нового покоління</h1>
+            </div>
+            <div class="main-bl__right-bottom">
+              <div class="main-bl__content content">
+                <p>Весь спектр стоматологічних послуг та комплексний підхід до вирішення будь-яких завдань в центрі Івано-Франківська</p>
+              </div>
+              <div class="main-bl__btn">
+                <div class="btn" onclick="show_popup('form')"> 
+                  <div class="btn__title">Швидкий запис</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="main-bl__wrap"> 
+          <div class="main-bl__left img-wrap">
+            <picture>
+              <source srcset="assets/images/png/main-img1.webp" type="image/webp"><img src="assets/images/png/main-img1.png" alt="">
+            </picture>
+          </div>
+          <div class="main-bl__right">
+            <div class="main-bl__right-top">
+              <h1 class="main-bl__simple-title simple-title simple-title--left">Ультрасучасна стоматологія нового покоління</h1>
+            </div>
+            <div class="main-bl__right-bottom">
+              <div class="main-bl__content content">
+                <p>Весь спектр стоматологічних послуг та комплексний підхід до вирішення будь-яких завдань в центрі Івано-Франківська</p>
+              </div>
+              <div class="main-bl__btn">
+                <div class="btn" onclick="show_popup('form')">
+                  <div class="btn__title">Швидкий запис</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main-slider__button">
+    <div class="slider-button">
+      <div class="swiper-button-prev">
+        <svg viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06507 0.966855L0.369871 4.59651C0.143115 4.81924 0.143115 5.18037 0.369871 5.4031L4.06507 9.03275C4.29183 9.25549 4.65948 9.25549 4.88623 9.03275C5.11299 8.81002 5.11299 8.4489 4.88623 8.22616L2.18225 5.57015H15.7998V4.42946H2.18225L4.88623 1.77344C5.11299 1.55071 5.11299 1.18959 4.88623 0.966855C4.65948 0.744121 4.29183 0.744121 4.06507 0.966855Z"></path>
+        </svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9349 0.966855L15.6301 4.59651C15.8569 4.81924 15.8569 5.18037 15.6301 5.4031L11.9349 9.03275C11.7082 9.25549 11.3405 9.25549 11.1138 9.03275C10.887 8.81002 10.887 8.4489 11.1138 8.22616L13.8177 5.57015H0.200195V4.42946H13.8177L11.1138 1.77344C10.887 1.55071 10.887 1.18959 11.1138 0.966855C11.3405 0.744121 11.7082 0.744121 11.9349 0.966855Z"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="services at-block">
+          <div class="center-wrap"> 
+            <h2 class="services__simple-title simple-title simple-title--left at-element" data-at-name="atText">Послуги клініки Masych Dent &amp; Cosmetology</h2>
+            <div class="services__wrap"> 
+              <div class="services__wrap-column">
+                <div class="services__baner img-parallax">
+                  <picture>
+                    <source srcset="assets/images/png/services__baner1.webp" type="image/webp"><img class="services__baner-bg" src="assets/images/png/services__baner1.png" alt="">
+                  </picture>
+                  <h3 class="services__baner-title">Стоматологія </h3><a class="prices__item-link" href="">
+                    <div class="prices__item-circle"> </div>
+                    <p>послуги стоматології<span></span></p></a>
+                </div>
+                <div class="services__list at-element" data-at-name="atItemsRow" data-at-selector=".services__list-wrap" data-at-rows="2" data-at-custom="true">
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Протезування зубів</h3>
+                      <div class="services__list-content content"> 
+                        <p>Якісне відновлення раніше втраченого зуба, цілісності його частини або зубного ряду у Франківську. Пропонуємо знімне, часткове знімне та незнімне протезування. Встановлюємо вініри, цирконієві та металокерамічні коронки. Стоматолог-ортопед сформує індивідуальний план лікування з урахуванням вашої ситуації.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon1.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon2.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Імплантація зубів</h3>
+                      <div class="services__list-content content"> 
+                        <p>Імпланти — це своєрідні штучні корені з титану, які встановлюють у верхню чи нижню щелепу. На них кріпляться коронки або знімні чи незнімні протези. Дентальна імплантація дозволяє відновити втрачені зуби. Серед переваг методики — довговічність результату. Крім того, коронки на імплантах виглядають як власний зуб.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon1.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon2.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Лікування зубів</h3>
+                      <div class="services__list-content content"> 
+                        <p>Найпоширеніші хвороби ясен — гінгівіт та пародонтит. Вони можуть проявлятися з кровоточивістю ясен, підвищеною чутливістю або рухомістю зуба і неприємним запахом з рота. Оскільки причини запалень можуть бути різні, наш пародонтолог розпочинає лікування з ретельної діагностики. Лише опісля обирається оптимальний протокол лікування.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon1.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon2.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Хірургічна стоматологія</h3>
+                      <div class="services__list-content content"> 
+                        <p>Хірургічна стоматологія акцентує на збереженні зубів. З цією метою Masych Dent пропонує операції різного рівня складності. Стоматолог-хірург здійснює підготовку та імплантації зубів. Крім того, він виконує нарощування кістки та синус ліфтинг. Пропонуємо також безболісне видалення молочних зубів, постійних і зубів мудрості.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon1.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon2.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                </div>
+              </div>
+              <div class="services__wrap-column">
+                <div class="services__baner img-parallax">
+                  <picture>
+                    <source srcset="assets/images/png/services__baner2.webp" type="image/webp"><img class="services__baner-bg" src="assets/images/png/services__baner2.png" alt="">
+                  </picture>
+                  <h3 class="services__baner-title">Косметологія</h3><a class="prices__item-link" href="">
+                    <div class="prices__item-circle"> </div>
+                    <p>послуги косметології<span></span></p></a>
+                </div>
+                <div class="services__list at-element" data-at-name="atItemsRow" data-at-selector=".services__list-wrap" data-at-rows="2" data-at-custom="true">
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Лазерна епіляція</h3>
+                      <div class="services__list-content content"> 
+                        <p>Точність, швидкість та передбачуваність результату — це безумовні переваги лазерного видалення волосся. Цей метод підходить для тих, кому набридли гоління, пінцет або воскова епіляція. Використання лазера допомагає ефективно позбутися небажаного волосся з обличчя, шиї, підборіддя, спини, рук, пахв, лінії бікіні та інших зон. Запишіться на консультацію, щоб дізнатися деталі.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon3.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon4.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Ін'єкційна косметологія</h3>
+                      <div class="services__list-content content"> 
+                        <p>Методика ін’єкційної косметології дозволяє доставляти речовини туди, куди не проникають препарати, що наносяться на шкіру зовні. Тобто відновлення шкіри та вплив на мімічні зморшки відбувається всередині. Салон краси Masych надає послуги зі збільшення губ, корекції форм носо-губних складок, овалу обличчя та підборіддя.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon3.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon4.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">SMAS-ліфтинг</h3>
+                      <div class="services__list-content content"> 
+                        <p>В апаратній косметології використовується обладнання без хірургічного втручання та ін'єкцій. Омолодження відбувається завдяки ультразвуковим імпульсам, РФ прогріванню а також за допомогою лазерів. SMAS-ліфтинг, РФ-ліфтинг та лікування лазерами ефективне для різних вікових груп і має тривалий ефект.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon3.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon4.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                  <div class="services__list-wrap"><a class="services__list-item" href="/">
+                      <h3 class="services__list-title">Естетична косметологія</h3>
+                      <div class="services__list-content content"> 
+                        <p>Хірургічна стоматологія акцентує на збереженні зубів. З цією метою Masych Dent пропонує операції різного рівня складності. Стоматолог-хірург здійснює підготовку та імплантації зубів. Крім того, він виконує нарощування кістки та синус ліфтинг. Пропонуємо також безболісне видалення молочних зубів, постійних і зубів мудрості.</p>
+                      </div>
+                      <div class="services__list-logo"> 
+                        <div class="img-wrap">
+                          <div><img class="services__list-icon services__list-icon--default" src="assets/images/svg/servic-icon3.svg" alt=""><img class="services__list-icon services__list-icon--hover" src="assets/images/svg/servic-icon4.svg" alt=""></div>
+                        </div>
+                      </div>
+                      <div class="services__list-detal">детальніше</div></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<section class="advantage-slider at-block">
+  <div class="center-wrap">
+    <h2 class="advantage-slider__simple-title simple-title simple-title--left at-element" data-at-name="atText">Чому клієнти обирають нашу клініку</h2>
+    <div class="advantage-slider__list"> 
+      <div class="advantage-slider__item advantage-slider__item--1 advantage-slider__item--active">
+        <div class="advantage-slider__item-icon img-wrap">
+          <div><img src="assets/images/svg/advantage-slider-icon1.svg" alt=""></div>
+        </div>
+        <h3 class="advantage-slider__item-title">Центр міста</h3>
+        <div class="advantage-slider__item-content content"> 
+          <p>Ми знаходимося у спокійному місці, всього за декілька хвилин ходьби від фортечної галереї "Бастіон" і ратуші.</p>
+        </div>
+      </div>
+      <div class="advantage-slider__item advantage-slider__item--2"> 
+        <div class="advantage-slider__item-icon img-wrap">
+          <div><img src="assets/images/svg/advantage-slider-icon2.svg" alt=""></div>
+        </div>
+        <h3 class="advantage-slider__item-title">Якість послуг</h3>
+        <div class="advantage-slider__item-content content"> 
+          <p>Ми гарантуємо якісний сервіс, якими б не були ваші стоматологічні чи косметологічні потреби.</p>
+        </div>
+      </div>
+      <div class="advantage-slider__item advantage-slider__item--3">
+        <div class="advantage-slider__item-icon img-wrap">
+          <div><img src="assets/images/svg/advantage-slider-icon3.svg" alt=""></div>
+        </div>
+        <h3 class="advantage-slider__item-title">Сервіс з любовʼю</h3>
+        <div class="advantage-slider__item-content content"> 
+          <p>Наш підхід ґрунтується навколо трьох складових: кваліфікований персонал, сучасне обладнання і дружня атмосфера</p>
+        </div>
+      </div>
+    </div>
+    <div class="price-range-slider mobile--hide">
+      <div class="range-bar" id="slider-range"></div>
+    </div>
+  </div>
+</section>
+<section class="form">
+  <picture>
+    <source srcset="assets/images/png/form-bg-mobil.webp" type="image/webp" media="(max-width: 1024px)">
+    <source srcset="assets/images/png/form-bg-mobil.png" media="(max-width: 1024px)">
+    <source srcset="assets/images/png/form-bg.webp" type="image/webp"><img class="form__bg" src="assets/images/png/form-bg.png" alt="">
+  </picture>
+  <div class="center-wrap">
+    <div class="form__wrap">
+      <div class="form__left">
+        <h2 class="form__simple-title simple-title">Будемо раді бачити вас у нашій клініці!</h2>
+        <div class="form__content content"> 
+          <p>Залиште свій номер телефону і ми неодмінно зконтактуємось з вами!</p>
+        </div>
+        <form class="inputs" action="/action_page.php" autocomplete="off">
+          <div class="inputs__field-wrap">
+            <input class="inputs__field" id="form-text" type="text" name="text" autocomplete="off" required="" minlength="2">
+            <label class="inputs__label" for="form-text"><span class="inputs__content">Ваше імʼя</span></label>
+          </div>
+          <div class="inputs__field-wrap">
+            <input class="inputs__field" id="form-tel" type="tel" name="tel" autocomplete="off" required="">
+            <label class="inputs__label" for="form-tel"><span class="inputs__content">Ваш телефон</span></label>
+          </div>
+          <div class="inputs__field-wrap inputs__field-wrap--textarea">
+            <textarea class="inputs__field inputs__field--valid" id="form-textarea" name="textarea"></textarea>
+            <label class="inputs__label" for="form-textarea"><span class="inputs__content">Ваше повідомлення <b>(необовʼязково)</b></span></label>
+          </div>
+          <div class="inputs__btn">
+            <button class="btn" type="submit"><span class="btn__title">Надіслати</span></button>
+          </div>
+        </form>
+        <div class="form__politics content">
+          <p>Натискаючи на кнопку, ви даєте згоду на обробку персональних даних та погоджуєтесь з <a href="/terms.html">політикою конфіденційності</a></p>
+        </div>
+      </div>
+      <div class="form__right img-parallax">
+        <picture>
+          <source srcset="assets/images/png/form-img2.webp" type="image/webp"><img src="assets/images/png/form-img2.png" alt="">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+        <section class="advantage at-block">
+          <div class="center-wrap">
+            <div class="advantage__wrap">
+              <div class="advantage__box">
+                <div class="advantage__box-left">
+                  <h2 class="advantage__simple-title simple-title simple-title--left at-element" data-at-name="atText">№ 1 на ринку стоматології та косметології</h2>
+                </div>
+                <div class="advantage__box-right">
+                  <div class="advantage__content content"> 
+                    <p>Якісна діагностика в стоматології, як і в будь-якій області медицини, – гарантія результативного лікування. Стоматологічна клініка Amel Dental Clinic (м.Дніпропетровськ) здоров’я пацієнтів ставить понад усе, тому проводить дослідження ротової порожнини із застосуванням новітніх і найбільш інформативних методів діагностики. Один з таких методів – комп’ютерна 3D-томографія зубів. На відміну від звичної рентгенографії, КТ дає об’ємну, найбільш повну картину про стан і проблеми зубів у всіх площинах, а також м’яких і твердих тканин щелепно-лицьового відділу.</p>
+                    <p>Дентальная комп’ютерна томографія в Amel Dental Clinic проводиться із застосуванням апаратів нового покоління провідних виробників медичного стоматологічного обладнання зі світовим ім’ям. Використання сучасної апаратури і методів дослідження в сукупності з великим досвідом і високою кваліфікацією лікарів стоматологічної клініки – гарантія високоточної діагностики без помилок і похибок. Якісна діагностика в стоматології, як і в будь-якій області медицини, – гарантія результативного лікування.</p>
+                  </div>
+                  <div class="advantage__video">
+                    <div class="advantage__video-img img-wrap img-parallax">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/advantage-video.webp" type="image/webp"><img src="assets/images/png/advantage-video.png" alt="">
+                        </picture>
+                      </div>
+                    </div>
+                    <video class="advantage__video-open" muted loop>
+                      <source type="video/mp4" src="assets/images/video.mp4">
+                    </video>
+                    <div class="video">
+                      <div class="video__play">
+                        <svg viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M11.5 6.63953C12.1667 7.02443 12.1667 7.98668 11.5 8.37158L1.5 14.1451C0.833333 14.53 -6.14095e-07 14.0489 -5.80446e-07 13.2791L-7.57103e-08 1.73205C-4.20613e-08 0.96225 0.833333 0.481125 1.5 0.866025L11.5 6.63953Z"></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="advantage__box">
+                <div class="advantage__box-left">
+                  <h2 class="advantage__simple-title simple-title simple-title--left at-element" data-at-name="atText">Найкраще обладнання в місті</h2>
+                </div>
+                <div class="advantage__box-right">
+                  <div class="advantage__content content">
+                    <h4>Експерти в галузі стоматології та косметології</h4>
+                    <p>Якісна діагностика в стоматології, як і в будь-якій області медицини, – гарантія результативного лікування. Стоматологічна клініка Amel Dental Clinic (м.Дніпропетровськ) здоров’я пацієнтів ставить понад усе, тому проводить дослідження ротової порожнини із застосуванням новітніх і найбільш інформативних методів діагностики. Один з таких методів – комп’ютерна 3D-томографія зубів. На відміну від звичної рентгенографії, КТ дає об’ємну, найбільш повну картину про стан і проблеми зубів у всіх площинах, а також м’яких і твердих тканин щелепно-лицьового відділу.</p>
+                    <p>Дентальная комп’ютерна томографія в Amel Dental Clinic проводиться із застосуванням апаратів нового покоління провідних виробників медичного стоматологічного обладнання зі світовим ім’ям. Використання сучасної апаратури і методів дослідження в сукупності з великим досвідом і високою кваліфікацією лікарів стоматологічної клініки – гарантія високоточної діагностики без помилок і похибок. Якісна діагностика в стоматології, як і в будь-якій області медицини, – гарантія результативного лікування.</p>
+                  </div>
+                  <div class="advantage__images"> 
+                    <div class="advantage__img img-wrap img-parallax">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/advantage__img1.webp" type="image/webp"><img src="assets/images/png/advantage__img1.png" alt="">
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="advantage__img img-wrap img-parallax">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/advantage__img2.webp" type="image/webp"><img src="assets/images/png/advantage__img2.png" alt="">
+                        </picture>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="advantage__more desktop--hide">
+                    <div class="advantage__more-title">читати далі</div>
+                  </div>
+                  <div class="advantage__more-hide">
+                    <div class="advantage__content content">
+                      <h3>Експерти в галузі стоматології та косметології, експерти в галузі стоматології та косметології</h3>
+                      <ul> 
+                        <li>Якісна діагностика в стоматології, як і в будь-якій області медицини, – гарантія результативного лікування. </li>
+                        <li>Стоматологічна клініка Amel Dental Clinic (м.Дніпропетровськ) здоров’я пацієнтів ставить понад усе, тому проводить дослідження ротової порожнини із застосуванням новітніх і найбільш інформативних методів діагностики.</li>
+                        <li>Один з таких методів – комп’ютерна 3D-томографія зубів.</li>
+                        <li>На відміну від звичної рентгенографії, КТ дає об’ємну, найбільш повну картину про стан і проблеми зубів у всіх площинах, а також м’яких і твердих тканин щелепно-лицьового відділу.</li>
+                      </ul>
+                      <p>Дентальная комп’ютерна томографія в Amel Dental Clinic проводиться із застосуванням апаратів нового покоління провідних виробників медичного стоматологічного обладнання зі світовим ім’ям. Використання сучасної апаратури і методів дослідження в сукупності з великим досвідом і високою кваліфікацією лікарів стоматологічної клініки — гарантія високоточної діагностики без помилок і похибок. Якісна діагностика в стоматології, як і в будь-якій області медицини, — гарантія результативного лікування.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<section class="reviews at-block">
+  <div class="center-wrap"> 
+    <div class="reviews__wrap"> 
+      <h2 class="reviews__simple-title simple-title simple-title--left at-element" data-at-name="atText">Відгуки про нашу клініку</h2>
+      <h3 class="reviews__info">Декілька теплих слів про нашу клініку з незалежних ресурсів</h3><a class="prices__item-link reviews__link mobile--hide" href="">
+        <div class="prices__item-circle"> </div>
+        <p>Надіслати відгук<span> </span></p></a>
+    </div>
+  </div>
+  <div class="reviews-slider">
+    <div class="reviews-slider__wrap">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews-slider__item"> 
+              <div class="reviews-slider__left">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/avatar-reviews1.webp" type="image/webp"><img class="hover" src="assets/images/png/avatar-reviews1.png" alt="">
+                    </picture><img class="default" src="assets/images/svg/avatar-no.svg" alt="">
+                  </div>
+                </div>
+                <div class="reviews-slider__top desktop--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__name">Irina Parashchuk</div>
+                </div>
+              </div>
+              <div class="reviews-slider__right">
+                <div class="reviews-slider__top mobile--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__date">15.05.22</div>
+                </div>
+                <div class="reviews-slider__content content"> 
+                  <p>Відвідую клініку Masych Cosmetology уже декілька років і я дуже задоволена, як від наданих послуг так і від атмосфери яка там панує. Завдяки сучасній техніці процедура лазерної епіляції була практичного безболісна та ефективна (після першого разу я уже побачила результати). Також рекомендую спробувати SMAS ліфтинг, результати просто вражають. Щиро дякую тобі, Ольга Василівна, за професійний підхід і за виконання будь-якої моєї забаганки)</p>
+                </div>
+                <div class="reviews-slider__name mobile--hide">Irina Parashchuk</div>
+                <div class="reviews-slider__map mobile--hide">Відгук в Google Maps</div><a class="reviews-slider__link desktop--hide" href="#">читати повністю</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews-slider__item"> 
+              <div class="reviews-slider__left">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/avatar-reviews1.webp" type="image/webp"><img class="hover" src="assets/images/png/avatar-reviews1.png" alt="">
+                    </picture><img class="default" src="assets/images/svg/avatar-no.svg" alt="">
+                  </div>
+                </div>
+                <div class="reviews-slider__top desktop--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__name">Irina Parashchuk</div>
+                </div>
+              </div>
+              <div class="reviews-slider__right">
+                <div class="reviews-slider__top mobile--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__date">15.05.22</div>
+                </div>
+                <div class="reviews-slider__content content"> 
+                  <p>Відвідую клініку Masych Cosmetology уже декілька років і я дуже задоволена, як від наданих послуг так і від атмосфери яка там панує. Завдяки сучасній техніці процедура лазерної епіляції була практичного безболісна та ефективна (після першого разу я уже побачила результати). Також рекомендую спробувати SMAS ліфтинг, результати просто вражають. Щиро дякую тобі, Ольга Василівна, за професійний підхід і за виконання будь-якої моєї забаганки)</p>
+                </div>
+                <div class="reviews-slider__name mobile--hide">Irina Parashchuk</div>
+                <div class="reviews-slider__map mobile--hide">Відгук в Google Maps</div><a class="reviews-slider__link desktop--hide" href="#">читати повністю</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews-slider__item"> 
+              <div class="reviews-slider__left">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/avatar-reviews1.webp" type="image/webp"><img class="hover" src="assets/images/png/avatar-reviews1.png" alt="">
+                    </picture><img class="default" src="assets/images/svg/avatar-no.svg" alt="">
+                  </div>
+                </div>
+                <div class="reviews-slider__top desktop--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__name">Irina Parashchuk</div>
+                </div>
+              </div>
+              <div class="reviews-slider__right">
+                <div class="reviews-slider__top mobile--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__date">15.05.22</div>
+                </div>
+                <div class="reviews-slider__content content"> 
+                  <p>Відвідую клініку Masych Cosmetology уже декілька років і я дуже задоволена, як від наданих послуг так і від атмосфери яка там панує. Завдяки сучасній техніці процедура лазерної епіляції була практичного безболісна та ефективна (після першого разу я уже побачила результати). Також рекомендую спробувати SMAS ліфтинг, результати просто вражають. Щиро дякую тобі, Ольга Василівна, за професійний підхід і за виконання будь-якої моєї забаганки)</p>
+                </div>
+                <div class="reviews-slider__name mobile--hide">Irina Parashchuk</div>
+                <div class="reviews-slider__map mobile--hide">Відгук в Google Maps</div><a class="reviews-slider__link desktop--hide" href="#">читати повністю</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="reviews-slider__item"> 
+              <div class="reviews-slider__left">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/avatar-reviews1.webp" type="image/webp"><img class="hover" src="assets/images/png/avatar-reviews1.png" alt="">
+                    </picture><img class="default" src="assets/images/svg/avatar-no.svg" alt="">
+                  </div>
+                </div>
+                <div class="reviews-slider__top desktop--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__name">Irina Parashchuk</div>
+                </div>
+              </div>
+              <div class="reviews-slider__right">
+                <div class="reviews-slider__top mobile--hide"> 
+                  <div class="reviews-slider__rating">
+                    <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8.86138 0.690982C9.16074 -0.230329 10.4641 -0.230327 10.7635 0.690984L12.3944 5.71024C12.5282 6.12226 12.9122 6.40122 13.3454 6.40122H18.623C19.5917 6.40122 19.9945 7.64084 19.2107 8.21024L14.9411 11.3123C14.5906 11.567 14.444 12.0183 14.5778 12.4303L16.2087 17.4496C16.5081 18.3709 15.4536 19.137 14.6699 18.5676L10.4002 15.4656C10.0497 15.2109 9.57514 15.2109 9.22466 15.4656L4.95502 18.5676C4.17131 19.137 3.11683 18.3709 3.41618 17.4496L5.04704 12.4303C5.18091 12.0183 5.03425 11.567 4.68376 11.3123L0.414131 8.21024C-0.369583 7.64083 0.0331947 6.40122 1.00192 6.40122H6.27947C6.7127 6.40122 7.09666 6.12226 7.23053 5.71024L8.86138 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M38.2501 0.690982C38.5494 -0.230329 39.8528 -0.230327 40.1522 0.690984L41.783 5.71024C41.9169 6.12226 42.3009 6.40122 42.7341 6.40122H48.0116C48.9804 6.40122 49.3831 7.64084 48.5994 8.21024L44.3298 11.3123C43.9793 11.567 43.8326 12.0183 43.9665 12.4303L45.5974 17.4496C45.8967 18.3709 44.8422 19.137 44.0585 18.5676L39.7889 15.4656C39.4384 15.2109 38.9638 15.2109 38.6133 15.4656L34.3437 18.5676C33.56 19.137 32.5055 18.3709 32.8049 17.4496L34.4357 12.4303C34.5696 12.0183 34.4229 11.567 34.0724 11.3123L29.8028 8.21024C29.0191 7.64083 29.4219 6.40122 30.3906 6.40122H35.6681C36.1014 6.40122 36.4853 6.12226 36.6192 5.71024L38.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M67.2501 0.690982C67.5494 -0.230329 68.8528 -0.230327 69.1522 0.690984L70.783 5.71024C70.9169 6.12226 71.3009 6.40122 71.7341 6.40122H77.0116C77.9804 6.40122 78.3831 7.64084 77.5994 8.21024L73.3298 11.3123C72.9793 11.567 72.8326 12.0183 72.9665 12.4303L74.5974 17.4496C74.8967 18.3709 73.8422 19.137 73.0585 18.5676L68.7889 15.4656C68.4384 15.2109 67.9638 15.2109 67.6133 15.4656L63.3437 18.5676C62.56 19.137 61.5055 18.3709 61.8049 17.4496L63.4357 12.4303C63.5696 12.0183 63.4229 11.567 63.0724 11.3123L58.8028 8.21024C58.0191 7.64083 58.4219 6.40122 59.3906 6.40122H64.6681C65.1014 6.40122 65.4853 6.12226 65.6192 5.71024L67.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M96.2501 0.690982C96.5494 -0.230329 97.8528 -0.230327 98.1522 0.690984L99.783 5.71024C99.9169 6.12226 100.301 6.40122 100.734 6.40122H106.012C106.98 6.40122 107.383 7.64084 106.599 8.21024L102.33 11.3123C101.979 11.567 101.833 12.0183 101.967 12.4303L103.597 17.4496C103.897 18.3709 102.842 19.137 102.059 18.5676L97.7889 15.4656C97.4384 15.2109 96.9638 15.2109 96.6133 15.4656L92.3437 18.5676C91.56 19.137 90.5055 18.3709 90.8049 17.4496L92.4357 12.4303C92.5696 12.0183 92.4229 11.567 92.0724 11.3123L87.8028 8.21024C87.0191 7.64083 87.4219 6.40122 88.3906 6.40122H93.6681C94.1014 6.40122 94.4853 6.12226 94.6192 5.71024L96.2501 0.690982Z" fill="#CAA21F"></path>
+                      <path d="M128.783 5.71024L127.152 0.690984C127 0.223209 126.589 -0.00706413 126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747C126.395 15.2708 126.608 15.3344 126.789 15.4656L131.059 18.5676C131.842 19.137 132.897 18.3709 132.597 17.4496L130.967 12.4303C130.833 12.0183 130.979 11.567 131.33 11.3123L135.599 8.21024C136.383 7.64084 135.98 6.40122 135.012 6.40122H129.734C129.301 6.40122 128.917 6.12226 128.783 5.71024Z" fill="#FFFFF0"></path>
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M126.183 0.000165048C125.788 0.00717417 125.397 0.237446 125.25 0.690982L123.619 5.71024C123.485 6.12226 123.101 6.40122 122.668 6.40122H117.391C116.422 6.40122 116.019 7.64084 116.803 8.21024L121.072 11.3123C121.423 11.567 121.57 12.0183 121.436 12.4303L119.805 17.4496C119.506 18.3709 120.56 19.137 121.344 18.5676L125.613 15.4656C125.783 15.3421 125.982 15.2785 126.183 15.2747V0.000165048Z" fill="#CAA21F"></path>
+                    </svg>
+                  </div>
+                  <div class="reviews-slider__date">15.05.22</div>
+                </div>
+                <div class="reviews-slider__content content"> 
+                  <p>Відвідую клініку Masych Cosmetology уже декілька років і я дуже задоволена, як від наданих послуг так і від атмосфери яка там панує. Завдяки сучасній техніці процедура лазерної епіляції була практичного безболісна та ефективна (після першого разу я уже побачила результати). Також рекомендую спробувати SMAS ліфтинг, результати просто вражають. Щиро дякую тобі, Ольга Василівна, за професійний підхід і за виконання будь-якої моєї забаганки)</p>
+                </div>
+                <div class="reviews-slider__name mobile--hide">Irina Parashchuk</div>
+                <div class="reviews-slider__map mobile--hide">Відгук в Google Maps</div><a class="reviews-slider__link desktop--hide" href="#">читати повністю</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="reviews-slider__pagination slider-pagination">
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <div class="center-wrap desktop--hide">
+    <div class="reviews__bottom"><a class="prices__item-link reviews__link" href="">
+        <div class="prices__item-circle"> </div>
+        <p>Надіслати відгук<span></span></p></a></div>
+  </div>
+</section>
+        <section class="honors-slider at-block honors-slider--bg">
+          <div class="honors-slider__bg"></div>
+          <div class="honors-slider__bg-left"></div>
+          <div class="honors-slider__bg-right"></div><img class="honors-slider__decor" src="assets/images/svg/honors-slider-deco.svg" alt="">
+          <div class="center-wrap">
+            <h2 class="honors-slider__simple-title simple-title simple-title--left at-element" data-at-name="atText">Відзнаки Masych</h2>
+          </div>
+          <div class="honors-slider__wrap">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><a class="honors-slider__item" href="assets/images/png/honors-slider1.png" data-animation-effect="false" data-fancybox="honors-gallery">
+                    <div class="honors-slider__img img-wrap honors-slider__img--hor">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/honors-slider1.webp" type="image/webp"><img src="assets/images/png/honors-slider1.png" alt="">
+                        </picture>
+                      </div>
+                    </div></a>
+                  <div class="honors-slider__title">Gold Provider</div>
+                </div>
+                <div class="swiper-slide"><a class="honors-slider__item" href="assets/images/png/honors-slider2.png" data-animation-effect="false" data-fancybox="honors-gallery">
+                    <div class="honors-slider__img img-wrap">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/honors-slider2.webp" type="image/webp"><img src="assets/images/png/honors-slider2.png" alt="">
+                        </picture>
+                      </div>
+                    </div></a>
+                  <div class="honors-slider__title">Brand-Master Clinic of Bio3</div>
+                </div>
+                <div class="swiper-slide"><a class="honors-slider__item" href="assets/images/png/honors-slider3.png" data-animation-effect="false" data-fancybox="honors-gallery">
+                    <div class="honors-slider__img img-wrap honors-slider__img--hor">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/honors-slider3.webp" type="image/webp"><img src="assets/images/png/honors-slider3.png" alt="">
+                        </picture>
+                      </div>
+                    </div></a>
+                  <div class="honors-slider__title">Strategic Partner Dentsply Sirona</div>
+                </div>
+                <div class="swiper-slide"><a class="honors-slider__item" href="assets/images/png/honors-slider2.png" data-animation-effect="false" data-fancybox="honors-gallery">
+                    <div class="honors-slider__img img-wrap">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/honors-slider2.webp" type="image/webp"><img src="assets/images/png/honors-slider2.png" alt="">
+                        </picture>
+                      </div>
+                    </div></a>
+                  <div class="honors-slider__title">Ivoclar Vivadent Partner Dental Clinic</div>
+                </div>
+                <div class="swiper-slide"><a class="honors-slider__item" href="assets/images/png/honors-slider1.png" data-animation-effect="false" data-fancybox="honors-gallery">
+                    <div class="honors-slider__img img-wrap honors-slider__img--hor">
+                      <div>
+                        <picture>
+                          <source srcset="assets/images/png/honors-slider1.webp" type="image/webp"><img src="assets/images/png/honors-slider1.png" alt="">
+                        </picture>
+                      </div>
+                    </div></a>
+                  <div class="honors-slider__title">Українська Народна Премія 2020</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="center-wrap"> 
+            <div class="honors-slider__button">
+              <div class="slider-button">
+                <div class="swiper-button-prev">
+                  <svg viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.06507 0.966855L0.369871 4.59651C0.143115 4.81924 0.143115 5.18037 0.369871 5.4031L4.06507 9.03275C4.29183 9.25549 4.65948 9.25549 4.88623 9.03275C5.11299 8.81002 5.11299 8.4489 4.88623 8.22616L2.18225 5.57015H15.7998V4.42946H2.18225L4.88623 1.77344C5.11299 1.55071 5.11299 1.18959 4.88623 0.966855C4.65948 0.744121 4.29183 0.744121 4.06507 0.966855Z"></path>
+                  </svg>
+                </div>
+                <div class="swiper-button-next">
+                  <svg viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9349 0.966855L15.6301 4.59651C15.8569 4.81924 15.8569 5.18037 15.6301 5.4031L11.9349 9.03275C11.7082 9.25549 11.3405 9.25549 11.1138 9.03275C10.887 8.81002 10.887 8.4489 11.1138 8.22616L13.8177 5.57015H0.200195V4.42946H13.8177L11.1138 1.77344C10.887 1.55071 10.887 1.18959 11.1138 0.966855C11.3405 0.744121 11.7082 0.744121 11.9349 0.966855Z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+<section class="courses at-block">
+  <div class="center-wrap"> 
+    <div class="courses__top"> 
+      <h2 class="courses__simple-title simple-title simple-title--left at-element" data-at-name="atText">Тримаємо вас в курсі подій</h2><a class="prices__item-link courses__link mobile--hide" href="">
+        <div class="prices__item-circle"> </div>
+        <p>Читати всі новини<span></span></p></a>
+    </div>
+    <div class="news__wrap"> 
+      <div class="news__row"> 
+        <div class="news__item"> 
+          <h3 class="news__item-title">Імплантація зубів та інші новини нашої клініки Імплантація зубів та інші новини </h3>
+          <div class="news__item-date">12.03.2022</div>
+          <div class="news__item-img img-wrap img-parallax">
+            <div>
+              <picture>
+                <source srcset="assets/images/png/news-img1.webp" type="image/webp"><img src="assets/images/png/news-img1.png" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="news__item-content content"> 
+            <p>Дентальна імплантація дозволяє відновити втрачені зуби. Серед переваг методики — довговічність результату. Коронки на імплантах виглядають як власний зуб.  довговічність результату.</p>
+          </div><a class="news__item-link" href="#">Детальніше</a>
+        </div>
+        <div class="news__item news__item--50"> 
+          <h3 class="news__item-title">Імплантація зубів та інші новини нашої клініки</h3>
+          <div class="news__item-date">12.03.2022</div>
+          <div class="news__item-img img-wrap img-parallax">
+            <div>
+              <picture>
+                <source srcset="assets/images/png/news-img2.webp" type="image/webp"><img src="assets/images/png/news-img2.png" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="news__item-content content"> 
+            <p>Відвідую клініку Masych Cosmetology уже декілька років і я дуже задоволена...</p>
+          </div><a class="news__item-link" href="#">Детальніше</a>
+        </div>
+        <div class="news__item news__item--50">
+          <h3 class="news__item-title">Імплантація зубів </h3>
+          <div class="news__item-date">12.03.2022</div>
+          <div class="news__item-img img-wrap img-parallax">
+            <div>
+              <picture>
+                <source srcset="assets/images/png/news-img3.webp" type="image/webp"><img src="assets/images/png/news-img3.png" alt="">
+              </picture>
+            </div>
+          </div>
+          <div class="news__item-content content"> 
+            <p>Дентальна імплантація дозволяє відновити втрачені зуби. Серед...</p>
+          </div><a class="news__item-link" href="#">Детальніше</a>
+        </div>
+      </div>
+    </div>
+    <div class="courses__bottom"><a class="prices__item-link courses__link desktop--hide" href="">
+        <div class="prices__item-circle"> </div>
+        <p>Читати всі новини<span></span></p></a></div>
+  </div>
+</section>
+<section class="call">
+  <div class="center-wrap"> 
+    <div class="call__wrap"> 
+      <div class="call__left">
+        <h2 class="call__simple-title simple-title--left simple-title">Будемо раді бачити вас у нашій клініці!</h2>
+        <div class="call__content content"> 
+          <p>Залиште свої контакти і ми неодмінно зателефонуємо!</p>
+        </div>
+      </div>
+      <div class="call__right">
+        <form class="inputs inputs--row" action="/action_page.php" autocomplete="off">
+          <div class="inputs__field-wrap">
+            <input class="inputs__field" id="cal-tel" type="tel" name="tel" autocomplete="off" required="">
+            <label class="inputs__label" for="cal-tel"><span class="inputs__content">Ваш телефон</span></label>
+          </div>
+          <div class="inputs__btn">
+            <button class="btn" type="submit" onclick="show_popup('thank')"><span class="btn__title">Надіслати</span></button>
+          </div>
+        </form>
+        <div class="form__politics content">
+          <p>Натискаючи на кнопку, ви даєте згоду на обробку персональних даних та погоджуєтесь з <a href="/terms.html">політикою конфіденційності</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      </main>
+<footer class="footer">
+  <div class="footer__bg"></div>
+  <div class="center-wrap">
+    <div class="footer__wrap">
+      <div class="footer__column footer__column--logo"><a class="footer__logo single-anchors img-wrap" href="index.html#home">
+          <div><img src="assets/images/svg/logo.svg" alt=""></div></a>
+        <div class="footer__socials mobile--hide"> 
+          <div class="socials"><a class="socials__link" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_801_1607f1)">
+                  <path d="M21.0906 10.3922C20.9605 10.0551 20.7611 9.74897 20.5055 9.49358C20.2498 9.23819 19.9435 9.03918 19.6063 8.90938C19.1419 8.73738 18.6514 8.64648 18.1562 8.64063C17.3328 8.60313 17.0859 8.59375 15 8.59375C12.9141 8.59375 12.6672 8.60313 11.8438 8.64063C11.3481 8.6463 10.857 8.73721 10.3922 8.90938C10.0551 9.03954 9.74897 9.23887 9.49358 9.49452C9.23819 9.75018 9.03918 10.0565 8.90938 10.3937C8.73738 10.8581 8.64648 11.3486 8.64063 11.8438C8.60313 12.6672 8.59375 12.9141 8.59375 15C8.59375 17.0859 8.60313 17.3328 8.64063 18.1562C8.6463 18.6519 8.73721 19.143 8.90938 19.6078C9.03954 19.9449 9.23887 20.251 9.49452 20.5064C9.75018 20.7618 10.0565 20.9608 10.3937 21.0906C10.8581 21.2626 11.3486 21.3535 11.8438 21.3594C12.6672 21.3969 12.9141 21.4062 15 21.4062C17.0859 21.4062 17.3328 21.3969 18.1562 21.3594C18.6519 21.3537 19.143 21.2628 19.6078 21.0906C19.9449 20.9605 20.251 20.7611 20.5064 20.5055C20.7618 20.2498 20.9608 19.9435 21.0906 19.6063C21.2626 19.1419 21.3535 18.6514 21.3594 18.1562C21.3969 17.3328 21.4062 17.0859 21.4062 15C21.4062 12.9141 21.3969 12.6672 21.3594 11.8438C21.3537 11.3481 21.2628 10.857 21.0906 10.3922ZM15 19.0125C14.2064 19.0125 13.4306 18.7772 12.7708 18.3363C12.1109 17.8954 11.5966 17.2687 11.2929 16.5355C10.9892 15.8023 10.9098 14.9955 11.0646 14.2172C11.2194 13.4389 11.6016 12.7239 12.1627 12.1627C12.7239 11.6016 13.4389 11.2194 14.2172 11.0646C14.9955 10.9098 15.8023 10.9892 16.5355 11.2929C17.2687 11.5966 17.8954 12.1109 18.3363 12.7708C18.7772 13.4306 19.0125 14.2064 19.0125 15C19.0125 16.0642 18.5898 17.0848 17.8373 17.8373C17.0848 18.5898 16.0642 19.0125 15 19.0125ZM19.1703 11.7672C18.9849 11.7672 18.8036 11.7122 18.6495 11.6092C18.4953 11.5062 18.3751 11.3598 18.3042 11.1885C18.2332 11.0171 18.2147 10.8286 18.2508 10.6468C18.287 10.4649 18.3763 10.2979 18.5074 10.1668C18.6385 10.0357 18.8056 9.94637 18.9874 9.9102C19.1693 9.87403 19.3578 9.89259 19.5291 9.96355C19.7004 10.0345 19.8468 10.1547 19.9498 10.3088C20.0528 10.463 20.1078 10.6443 20.1078 10.8297C20.1078 11.0783 20.009 11.3168 19.8332 11.4926C19.6574 11.6684 19.419 11.7672 19.1703 11.7672Z"></path>
+                  <path d="M14.9992 17.6039C16.4377 17.6039 17.6039 16.4377 17.6039 14.9992C17.6039 13.5607 16.4377 12.3945 14.9992 12.3945C13.5607 12.3945 12.3945 13.5607 12.3945 14.9992C12.3945 16.4377 13.5607 17.6039 14.9992 17.6039Z"></path>
+                  <path d="M15 0C12.0333 0 9.13319 0.879735 6.66645 2.52796C4.19972 4.17618 2.27713 6.51886 1.14181 9.25975C0.00649923 12.0006 -0.290551 15.0166 0.288228 17.9264C0.867006 20.8361 2.29562 23.5088 4.3934 25.6066C6.49119 27.7044 9.16394 29.133 12.0737 29.7118C14.9834 30.2906 17.9994 29.9935 20.7403 28.8582C23.4811 27.7229 25.8238 25.8003 27.472 23.3336C29.1203 20.8668 30 17.9667 30 15C30 11.0218 28.4197 7.20644 25.6066 4.3934C22.7936 1.58035 18.9783 0 15 0V0ZM22.7656 18.2219C22.7522 18.8697 22.6291 19.5105 22.4016 20.1172C22.2009 20.6361 21.8941 21.1073 21.5007 21.5007C21.1073 21.894 20.6361 22.2009 20.1172 22.4016C19.5105 22.6291 18.8697 22.7522 18.2219 22.7656C17.3875 22.8031 17.1219 22.8125 15 22.8125C12.8781 22.8125 12.6125 22.8031 11.7781 22.7656C11.1303 22.7522 10.4895 22.6291 9.88282 22.4016C9.36395 22.2009 8.89272 21.894 8.49934 21.5007C8.10596 21.1073 7.79911 20.6361 7.59844 20.1172C7.37088 19.5105 7.24779 18.8697 7.23438 18.2219C7.19688 17.3875 7.18751 17.1219 7.18751 15C7.18751 12.8781 7.19688 12.6125 7.23438 11.7781C7.24779 11.1303 7.37088 10.4895 7.59844 9.88281C7.79911 9.36394 8.10596 8.89271 8.49934 8.49933C8.89272 8.10596 9.36395 7.7991 9.88282 7.59844C10.4895 7.37088 11.1303 7.24778 11.7781 7.23438C12.6125 7.19688 12.8781 7.1875 15 7.1875C17.1219 7.1875 17.3875 7.19688 18.2219 7.23438C18.8697 7.24778 19.5105 7.37088 20.1172 7.59844C20.6361 7.7991 21.1073 8.10596 21.5007 8.49933C21.8941 8.89271 22.2009 9.36394 22.4016 9.88281C22.6291 10.4895 22.7522 11.1303 22.7656 11.7781C22.8031 12.6125 22.8125 12.8781 22.8125 15C22.8125 17.1219 22.8031 17.3875 22.7656 18.2219Z"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_801_1607f1">
+                    <rect fill="white" height="100" width="100"></rect>
+                  </clippath>
+                </defs>
+              </svg></a><a class="socials__link" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.9988 -0.00390625C6.726 -0.00390625 -0.00390625 6.72627 -0.00390625 14.9988C-0.00390625 23.2715 6.726 30.002 14.9988 30.002C23.271 30.002 30.0014 23.2715 30.0014 14.9988C30.0014 6.72627 23.271 -0.00390625 14.9988 -0.00390625ZM19.239 9.46699C19.239 9.53803 19.2107 9.60616 19.1605 9.65639C19.1103 9.70662 19.0421 9.73484 18.9711 9.73484L17.2656 9.73592C16.1404 9.73592 15.9347 10.1741 15.9347 11.0372V12.8275H18.8597C18.9365 12.8275 19.0099 12.8607 19.0606 12.9186C19.1112 12.9765 19.1348 13.0533 19.1254 13.1297L18.7089 16.3528C18.7005 16.4174 18.669 16.4767 18.6201 16.5197C18.5711 16.5627 18.5083 16.5864 18.4431 16.5864H15.9347V24.5897C15.9347 24.6607 15.9064 24.7288 15.8562 24.7791C15.806 24.8293 15.7378 24.8575 15.6668 24.8575H12.339C12.2679 24.8575 12.1998 24.8293 12.1495 24.7791C12.0993 24.7288 12.0711 24.6607 12.0711 24.5897V16.5864H9.55457C9.48353 16.5864 9.4154 16.5581 9.36517 16.5079C9.31494 16.4577 9.28672 16.3895 9.28672 16.3185V13.0954C9.28672 13.0243 9.31494 12.9562 9.36517 12.906C9.4154 12.8557 9.48353 12.8275 9.55457 12.8275H12.0711V10.7181C12.0711 7.9244 13.7618 6.18922 16.484 6.18922C17.6543 6.18922 18.6885 6.27627 19.0062 6.31833C19.0706 6.32683 19.1297 6.35844 19.1725 6.40727C19.2153 6.4561 19.2389 6.51883 19.239 6.58377V9.46699Z"></path>
+              </svg></a></div>
+        </div>
+      </div>
+      <div class="footer__center mobile--hide">
+        <div class="footer__column">
+          <nav class="footer__nav"> 
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item"> 
+                <p class="footer__nav-title">Стоматологія</p>
+              </li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Лікування зубів</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Діагностика</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Ендодонтія</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Ортодонтія</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Імплантація</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Протезування зубів</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__column">
+          <nav class="footer__nav"> 
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item"> 
+                <p class="footer__nav-title">Косметологія</p>
+              </li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Лазерна епіляція</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Лазерне омолодження</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Пілінги для обличчя</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Естетична косметологія</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Апаратна косметологія</a></li>
+              <li class="footer__nav-item"> <a class="footer__nav-link" href="#">Контурна пластика</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="footer__column footer__column--info">
+        <div class="footer__row"> 
+          <div class="footer__row-icon">
+            <svg viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10 20.5C15.5228 20.5 20 16.0228 20 10.5C20 4.97715 15.5228 0.5 10 0.5C4.47715 0.5 0 4.97715 0 10.5C0 16.0228 4.47715 20.5 10 20.5ZM6.12671 4.66667C5.52012 4.66667 4.17233 6.14922 4.17233 6.14922C3.96996 11.3379 9.22686 16.5277 14.3486 16.3254C14.3486 16.3254 15.8987 15.0449 15.8312 14.371C15.7638 13.6971 14.3486 12.8212 13.4725 12.6189C12.7969 12.3937 12.3095 12.7329 11.9708 12.9686C11.9041 13.015 11.8432 13.0574 11.7877 13.0907C11.5182 13.2928 11.3159 13.495 11.3159 13.495C9.76573 12.9559 7.60926 10.7993 7.07015 9.18194C7.07015 9.18194 7.20493 8.97971 7.40717 8.71015C7.42313 8.68886 7.4412 8.66546 7.46084 8.64003C7.68982 8.3435 8.13255 7.77015 7.94628 7.02535C7.67675 6.21671 6.80058 4.73413 6.12671 4.66667Z"></path>
+            </svg>
+          </div>
+          <div class="footer__row-info"><a class="footer__row-tel" href="tel:380976425230">+38 (097) 642 52 30</a><a class="footer__row-tel" href="tel:380976425230">+38 (097) 642 52 30</a></div>
+        </div>
+        <div class="footer__row"> 
+          <div class="footer__row-icon">
+            <svg viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_801_1578)">
+                <path d="M10.0034 0.5C7.35239 0.5 4.81003 1.5531 2.93551 3.42769C1.06091 5.30214 0.0078125 7.84465 0.0078125 10.4956C0.0078125 13.1466 1.06091 15.689 2.93551 17.5635C4.80995 19.4381 7.35246 20.4912 10.0034 20.4912C12.6544 20.4912 15.1968 19.4381 17.0713 17.5635C18.9459 15.6891 19.999 13.1466 19.999 10.4956C19.999 7.84465 18.9459 5.30221 17.0713 3.42769C15.1969 1.5531 12.6544 0.5 10.0034 0.5ZM14.4714 7.03708L10.0034 10.7593L5.53542 7.03708H14.4714ZM15.0012 13.5242C15.0105 13.6415 14.9676 13.7569 14.8841 13.8398C14.8004 13.9226 14.6846 13.9644 14.5674 13.954H5.43931C5.32663 13.9675 5.21368 13.9311 5.13015 13.8541C5.04676 13.7771 5.00116 13.6675 5.00549 13.5542V7.685V7.60105L6.00504 8.42868L9.72338 11.5273V11.5272C9.79631 11.6047 9.89796 11.6485 10.0042 11.6485C10.1106 11.6485 10.2123 11.6047 10.2851 11.5272L14.8609 7.71283L15.0009 7.6049V7.72287L15.0012 13.5242Z"></path>
+              </g>
+              <defs>
+                <clippath id="clip0_801_1578">
+                  <rect fill="white" transform="translate(0 0.5)" height="100" width="100"></rect>
+                </clippath>
+              </defs>
+            </svg>
+          </div>
+          <div class="footer__row-info"><a class="footer__row-mail" href="mailto:masychv@gmail.com" target="_blank">masychv@gmail.com</a></div>
+        </div>
+        <div class="footer__row"> 
+          <div class="footer__row-icon">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.03279 8.94354C9.27487 9.1823 9.60328 9.31644 9.94573 9.31644C10.2883 9.31652 10.6167 9.18246 10.8589 8.94362C11.1012 8.70486 11.2371 8.381 11.2371 8.04338C11.2371 7.70575 11.1011 7.38189 10.8589 7.14321C10.6167 6.90446 10.2883 6.77031 9.94589 6.77031C9.60345 6.77031 9.27504 6.90446 9.03287 7.14321C8.7907 7.38189 8.65464 7.70575 8.65464 8.04338C8.65464 8.38094 8.79062 8.70478 9.03279 8.94354Z"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20ZM7.45108 5.1413C8.14811 4.55893 9.03215 4.23922 9.94573 4.23906C10.8589 4.23931 11.7424 4.55869 12.4392 5.14049C13.1359 5.72221 13.601 6.52876 13.7515 7.41658C13.9021 8.30457 13.7285 9.21635 13.2616 9.99001L9.94567 15.6521L6.63222 9.99389C6.16404 9.22043 5.98938 8.30818 6.13925 7.41963C6.2892 6.53107 6.75406 5.72374 7.45108 5.1413Z"></path>
+            </svg>
+          </div>
+          <div class="footer__row-info"> <a class="footer__row-locat" href="https://www.google.com/maps?q=%D0%BC.+%D0%86%D0%B2%D0%B0%D0%BD%D0%BE-%D0%A4%D1%80%D0%B0%D0%BD%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA,+%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%91%D0%B5%D0%BB%D1%8C%D0%B2%D0%B5%D0%B4%D0%B5%D1%80%D1%81%D1%8C%D0%BA%D0%B0,+25%D0%90&amp;um=1&amp;ie=UTF-8&amp;sa=X&amp;ved=2ahUKEwib2tuipKr6AhVMmYsKHaSvAlgQ_AUoAnoECAIQBA" target="_blank">м. Івано-Франківськ, вулиця Бельведерська, 25А  </a></div>
+        </div>
+        <div class="footer__row"> 
+          <div class="footer__row-icon">
+            <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 0C7.34786 0 4.80445 1.05356 2.92892 2.92892C1.0536 4.80441 0 7.34814 0 10C0 12.6519 1.05356 15.1956 2.92892 17.0711C4.80441 18.9464 7.34814 20 10 20C12.6519 20 15.1956 18.9464 17.0711 17.0711C18.9464 15.1956 20 12.6519 20 10C19.9971 7.34867 18.9428 4.8069 17.0679 2.93219C15.1932 1.05731 12.651 0.00285717 10 0Z"></path>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M15.0196 9.58842C14.7983 9.58842 14.6086 9.77837 14.6086 10C14.6086 10.2216 14.7984 10.4116 15.0355 10.4116H15.9999C15.9051 11.8365 15.3043 13.1188 14.3873 14.1003L13.7075 13.4196C13.6126 13.3404 13.4861 13.3404 13.407 13.4196C13.328 13.4987 13.328 13.6253 13.407 13.7045L14.0868 14.3852C13.1066 15.3034 11.8259 15.905 10.403 16V15.0343C10.403 14.7969 10.2133 14.6227 9.99199 14.6227C9.77064 14.6227 9.58095 14.7969 9.58095 15.0343V16C8.15796 15.8891 6.87736 15.3034 5.89714 14.3852L6.57693 13.7045C6.65601 13.6254 6.65601 13.4988 6.57693 13.4196C6.49797 13.3404 6.37148 13.3404 6.2924 13.4196L5.61262 14.1003C4.69562 13.1188 4.09478 11.8363 3.99993 10.4116H4.96436C5.20148 10.4116 5.3754 10.2216 5.3754 10C5.3754 9.77836 5.20147 9.58842 4.96436 9.58842H3.99993C4.11066 8.16354 4.69562 6.88124 5.61262 5.89973L6.2924 6.58041C6.32394 6.6279 6.38725 6.64369 6.43467 6.64369C6.48209 6.64369 6.54529 6.6279 6.57694 6.58041C6.65601 6.50135 6.65601 6.37469 6.57694 6.29551L5.89715 5.61482C6.87733 4.69661 8.15808 4.09497 9.58095 4V4.96571C9.58095 5.20314 9.77064 5.37729 9.99199 5.37729C10.2133 5.37729 10.403 5.20313 10.403 4.96571V4C11.8101 4.11088 13.1066 4.69661 14.0868 5.61482L13.4071 6.29551C13.328 6.37457 13.328 6.50124 13.4071 6.58041C13.4386 6.6279 13.5019 6.64369 13.5493 6.64369C13.5967 6.64369 13.6442 6.6279 13.6916 6.58041L14.3714 5.89973C15.2884 6.88121 15.8892 8.16366 15.9841 9.58842H15.0196ZM10.5611 10.4116H13.2331C13.4545 10.4116 13.6283 10.2058 13.6282 9.98408C13.6282 9.76244 13.4543 9.5725 13.2172 9.5725H10.5611C10.514 9.5725 10.4669 9.58818 10.4198 9.60386L10.4188 9.60419C10.3556 9.5408 10.2766 9.47752 10.1817 9.44583V6.72285C10.1817 6.61198 10.0869 6.51701 9.97616 6.51701C9.86544 6.51701 9.7706 6.61198 9.7706 6.72285L9.77071 9.46175C9.54938 9.55685 9.39123 9.76257 9.39123 10.0159C9.39123 10.3483 9.66 10.6016 9.97618 10.6016C10.1807 10.6027 10.3781 10.461 10.3999 10.4C10.4023 10.4005 10.4047 10.4009 10.407 10.4013C10.4516 10.4098 10.4793 10.415 10.5611 10.4116Z" fill="#3B3F4A"></path>
+            </svg>
+          </div>
+          <div class="footer__row-info"> 
+            <p class="footer__row-time">Пн-Пт 09:00–18:00</p>
+            <p class="footer__row-time">Сб 09:00–15:00</p>
+            <p class="footer__row-time">Нд вихідний</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom"> 
+      <div class="footer__column footer__column--logo">
+        <p class="footer__copyr">© 2022 Клініка MasychDent Cosmetology</p>
+      </div>
+      <div class="footer__center">
+        <div class="footer__column footer__column--pay">
+          <div class="footer__pay">
+            <div class="footer__pay-title">Приймаємо до оплати</div>
+            <div class="footer__pay-card"> 
+              <div class="footer__pay-link img-wrap">
+                <div><img src="assets/images/svg/pay-img.svg" alt=""></div>
+              </div>
+              <div class="footer__pay-link img-wrap footer__pay-link--width">
+                <div>
+                  <picture>
+                    <source srcset="assets/images/png/pay-img.webp" type="image/webp"><img src="assets/images/png/pay-img.png" alt="">
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__column footer__column--rating">
+          <div class="footer__rating">
+            <div class="footer__rating-title">Рейтинг клініки</div>
+            <div class="footer__rating-row"> 
+              <div class="footer__rating-star">
+                <svg viewBox="0 0 137 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.86138 0.80939C9.16074 -0.11192 10.4641 -0.111919 10.7635 0.809392L12.3944 5.82865C12.5282 6.24067 12.9122 6.51963 13.3454 6.51963H18.623C19.5917 6.51963 19.9945 7.75924 19.2107 8.32865L14.9411 11.4307C14.5906 11.6854 14.444 12.1367 14.5778 12.5487L16.2087 17.568C16.5081 18.4893 15.4536 19.2554 14.6699 18.686L10.4002 15.584C10.0497 15.3293 9.57514 15.3293 9.22466 15.584L4.95502 18.686C4.17131 19.2554 3.11683 18.4893 3.41618 17.568L5.04704 12.5487C5.18091 12.1367 5.03425 11.6854 4.68376 11.4307L0.414131 8.32864C-0.369583 7.75924 0.0331947 6.51963 1.00192 6.51963H6.27947C6.7127 6.51963 7.09666 6.24067 7.23053 5.82865L8.86138 0.80939Z" fill="#F7E07A"></path>
+                  <path d="M38.2481 0.80939C38.5475 -0.11192 39.8509 -0.111919 40.1502 0.809392L41.7811 5.82865C41.9149 6.24067 42.2989 6.51963 42.7321 6.51963H48.0097C48.9784 6.51963 49.3812 7.75924 48.5975 8.32865L44.3278 11.4307C43.9773 11.6854 43.8307 12.1367 43.9646 12.5487L45.5954 17.568C45.8948 18.4893 44.8403 19.2554 44.0566 18.686L39.7869 15.584C39.4365 15.3293 38.9619 15.3293 38.6114 15.584L34.3417 18.686C33.558 19.2554 32.5035 18.4893 32.8029 17.568L34.4338 12.5487C34.5676 12.1367 34.421 11.6854 34.0705 11.4307L29.8008 8.32864C29.0171 7.75924 29.4199 6.51963 30.3886 6.51963H35.6662C36.0994 6.51963 36.4834 6.24067 36.6172 5.82865L38.2481 0.80939Z" fill="#F7E07A"></path>
+                  <path d="M67.2481 0.80939C67.5475 -0.11192 68.8509 -0.111919 69.1502 0.809392L70.7811 5.82865C70.9149 6.24067 71.2989 6.51963 71.7321 6.51963H77.0097C77.9784 6.51963 78.3812 7.75924 77.5975 8.32865L73.3278 11.4307C72.9773 11.6854 72.8307 12.1367 72.9646 12.5487L74.5954 17.568C74.8948 18.4893 73.8403 19.2554 73.0566 18.686L68.7869 15.584C68.4365 15.3293 67.9619 15.3293 67.6114 15.584L63.3417 18.686C62.558 19.2554 61.5035 18.4893 61.8029 17.568L63.4338 12.5487C63.5676 12.1367 63.421 11.6854 63.0705 11.4307L58.8008 8.32864C58.0171 7.75924 58.4199 6.51963 59.3886 6.51963H64.6662C65.0994 6.51963 65.4834 6.24067 65.6172 5.82865L67.2481 0.80939Z" fill="#F7E07A"></path>
+                  <path d="M96.2481 0.80939C96.5475 -0.11192 97.8509 -0.111919 98.1502 0.809392L99.7811 5.82865C99.9149 6.24067 100.299 6.51963 100.732 6.51963H106.01C106.978 6.51963 107.381 7.75924 106.597 8.32865L102.328 11.4307C101.977 11.6854 101.831 12.1367 101.965 12.5487L103.595 17.568C103.895 18.4893 102.84 19.2554 102.057 18.686L97.7869 15.584C97.4365 15.3293 96.9619 15.3293 96.6114 15.584L92.3417 18.686C91.558 19.2554 90.5035 18.4893 90.8029 17.568L92.4338 12.5487C92.5676 12.1367 92.421 11.6854 92.0705 11.4307L87.8008 8.32864C87.0171 7.75924 87.4199 6.51963 88.3886 6.51963H93.6662C94.0994 6.51963 94.4834 6.24067 94.6172 5.82865L96.2481 0.80939Z" fill="#F7E07A"></path>
+                  <path d="M128.781 5.82865L127.15 0.809392C126.998 0.341617 126.587 0.111344 126.181 0.118573C125.786 0.125582 125.395 0.355855 125.248 0.80939L123.617 5.82865C123.483 6.24067 123.099 6.51963 122.666 6.51963H117.389C116.42 6.51963 116.017 7.75924 116.801 8.32864L121.07 11.4307C121.421 11.6854 121.568 12.1367 121.434 12.5487L119.803 17.568C119.504 18.4893 120.558 19.2554 121.342 18.686L125.611 15.584C125.781 15.4605 125.981 15.3969 126.181 15.3932C126.393 15.3892 126.606 15.4528 126.787 15.584L131.057 18.686C131.84 19.2554 132.895 18.4893 132.595 17.568L130.965 12.5487C130.831 12.1367 130.977 11.6854 131.328 11.4307L135.597 8.32865C136.381 7.75924 135.978 6.51963 135.01 6.51963H129.732C129.299 6.51963 128.915 6.24067 128.781 5.82865Z" fill="#A5A9AE"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M126.181 0.118573C125.786 0.125582 125.395 0.355855 125.248 0.80939L123.617 5.82865C123.483 6.24067 123.099 6.51963 122.666 6.51963H117.389C116.42 6.51963 116.017 7.75924 116.801 8.32864L121.07 11.4307C121.421 11.6854 121.568 12.1367 121.434 12.5487L119.803 17.568C119.504 18.4893 120.558 19.2554 121.342 18.686L125.611 15.584C125.781 15.4605 125.981 15.3969 126.181 15.3932V0.118573Z" fill="#F7E07A"></path>
+                </svg>
+              </div>
+              <div class="footer__rating-value mobile--hide">4.5 / 5</div>
+            </div>
+            <div class="footer__rating-content content"> 
+              <p>За результатами оцінок наших пацієнтів на сайті</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__column footer__column--info">
+        <div class="footer__socials"> 
+          <div class="socials"><a class="socials__link desktop--hide" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_801_1607f2)">
+                  <path d="M21.0906 10.3922C20.9605 10.0551 20.7611 9.74897 20.5055 9.49358C20.2498 9.23819 19.9435 9.03918 19.6063 8.90938C19.1419 8.73738 18.6514 8.64648 18.1562 8.64063C17.3328 8.60313 17.0859 8.59375 15 8.59375C12.9141 8.59375 12.6672 8.60313 11.8438 8.64063C11.3481 8.6463 10.857 8.73721 10.3922 8.90938C10.0551 9.03954 9.74897 9.23887 9.49358 9.49452C9.23819 9.75018 9.03918 10.0565 8.90938 10.3937C8.73738 10.8581 8.64648 11.3486 8.64063 11.8438C8.60313 12.6672 8.59375 12.9141 8.59375 15C8.59375 17.0859 8.60313 17.3328 8.64063 18.1562C8.6463 18.6519 8.73721 19.143 8.90938 19.6078C9.03954 19.9449 9.23887 20.251 9.49452 20.5064C9.75018 20.7618 10.0565 20.9608 10.3937 21.0906C10.8581 21.2626 11.3486 21.3535 11.8438 21.3594C12.6672 21.3969 12.9141 21.4062 15 21.4062C17.0859 21.4062 17.3328 21.3969 18.1562 21.3594C18.6519 21.3537 19.143 21.2628 19.6078 21.0906C19.9449 20.9605 20.251 20.7611 20.5064 20.5055C20.7618 20.2498 20.9608 19.9435 21.0906 19.6063C21.2626 19.1419 21.3535 18.6514 21.3594 18.1562C21.3969 17.3328 21.4062 17.0859 21.4062 15C21.4062 12.9141 21.3969 12.6672 21.3594 11.8438C21.3537 11.3481 21.2628 10.857 21.0906 10.3922ZM15 19.0125C14.2064 19.0125 13.4306 18.7772 12.7708 18.3363C12.1109 17.8954 11.5966 17.2687 11.2929 16.5355C10.9892 15.8023 10.9098 14.9955 11.0646 14.2172C11.2194 13.4389 11.6016 12.7239 12.1627 12.1627C12.7239 11.6016 13.4389 11.2194 14.2172 11.0646C14.9955 10.9098 15.8023 10.9892 16.5355 11.2929C17.2687 11.5966 17.8954 12.1109 18.3363 12.7708C18.7772 13.4306 19.0125 14.2064 19.0125 15C19.0125 16.0642 18.5898 17.0848 17.8373 17.8373C17.0848 18.5898 16.0642 19.0125 15 19.0125ZM19.1703 11.7672C18.9849 11.7672 18.8036 11.7122 18.6495 11.6092C18.4953 11.5062 18.3751 11.3598 18.3042 11.1885C18.2332 11.0171 18.2147 10.8286 18.2508 10.6468C18.287 10.4649 18.3763 10.2979 18.5074 10.1668C18.6385 10.0357 18.8056 9.94637 18.9874 9.9102C19.1693 9.87403 19.3578 9.89259 19.5291 9.96355C19.7004 10.0345 19.8468 10.1547 19.9498 10.3088C20.0528 10.463 20.1078 10.6443 20.1078 10.8297C20.1078 11.0783 20.009 11.3168 19.8332 11.4926C19.6574 11.6684 19.419 11.7672 19.1703 11.7672Z"></path>
+                  <path d="M14.9992 17.6039C16.4377 17.6039 17.6039 16.4377 17.6039 14.9992C17.6039 13.5607 16.4377 12.3945 14.9992 12.3945C13.5607 12.3945 12.3945 13.5607 12.3945 14.9992C12.3945 16.4377 13.5607 17.6039 14.9992 17.6039Z"></path>
+                  <path d="M15 0C12.0333 0 9.13319 0.879735 6.66645 2.52796C4.19972 4.17618 2.27713 6.51886 1.14181 9.25975C0.00649923 12.0006 -0.290551 15.0166 0.288228 17.9264C0.867006 20.8361 2.29562 23.5088 4.3934 25.6066C6.49119 27.7044 9.16394 29.133 12.0737 29.7118C14.9834 30.2906 17.9994 29.9935 20.7403 28.8582C23.4811 27.7229 25.8238 25.8003 27.472 23.3336C29.1203 20.8668 30 17.9667 30 15C30 11.0218 28.4197 7.20644 25.6066 4.3934C22.7936 1.58035 18.9783 0 15 0V0ZM22.7656 18.2219C22.7522 18.8697 22.6291 19.5105 22.4016 20.1172C22.2009 20.6361 21.8941 21.1073 21.5007 21.5007C21.1073 21.894 20.6361 22.2009 20.1172 22.4016C19.5105 22.6291 18.8697 22.7522 18.2219 22.7656C17.3875 22.8031 17.1219 22.8125 15 22.8125C12.8781 22.8125 12.6125 22.8031 11.7781 22.7656C11.1303 22.7522 10.4895 22.6291 9.88282 22.4016C9.36395 22.2009 8.89272 21.894 8.49934 21.5007C8.10596 21.1073 7.79911 20.6361 7.59844 20.1172C7.37088 19.5105 7.24779 18.8697 7.23438 18.2219C7.19688 17.3875 7.18751 17.1219 7.18751 15C7.18751 12.8781 7.19688 12.6125 7.23438 11.7781C7.24779 11.1303 7.37088 10.4895 7.59844 9.88281C7.79911 9.36394 8.10596 8.89271 8.49934 8.49933C8.89272 8.10596 9.36395 7.7991 9.88282 7.59844C10.4895 7.37088 11.1303 7.24778 11.7781 7.23438C12.6125 7.19688 12.8781 7.1875 15 7.1875C17.1219 7.1875 17.3875 7.19688 18.2219 7.23438C18.8697 7.24778 19.5105 7.37088 20.1172 7.59844C20.6361 7.7991 21.1073 8.10596 21.5007 8.49933C21.8941 8.89271 22.2009 9.36394 22.4016 9.88281C22.6291 10.4895 22.7522 11.1303 22.7656 11.7781C22.8031 12.6125 22.8125 12.8781 22.8125 15C22.8125 17.1219 22.8031 17.3875 22.7656 18.2219Z"></path>
+                </g>
+                <defs>
+                  <clippath id="clip0_801_1607f2">
+                    <rect fill="white" height="100" width="100"></rect>
+                  </clippath>
+                </defs>
+              </svg></a><a class="socials__link desktop--hide" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.9988 -0.00390625C6.726 -0.00390625 -0.00390625 6.72627 -0.00390625 14.9988C-0.00390625 23.2715 6.726 30.002 14.9988 30.002C23.271 30.002 30.0014 23.2715 30.0014 14.9988C30.0014 6.72627 23.271 -0.00390625 14.9988 -0.00390625ZM19.239 9.46699C19.239 9.53803 19.2107 9.60616 19.1605 9.65639C19.1103 9.70662 19.0421 9.73484 18.9711 9.73484L17.2656 9.73592C16.1404 9.73592 15.9347 10.1741 15.9347 11.0372V12.8275H18.8597C18.9365 12.8275 19.0099 12.8607 19.0606 12.9186C19.1112 12.9765 19.1348 13.0533 19.1254 13.1297L18.7089 16.3528C18.7005 16.4174 18.669 16.4767 18.6201 16.5197C18.5711 16.5627 18.5083 16.5864 18.4431 16.5864H15.9347V24.5897C15.9347 24.6607 15.9064 24.7288 15.8562 24.7791C15.806 24.8293 15.7378 24.8575 15.6668 24.8575H12.339C12.2679 24.8575 12.1998 24.8293 12.1495 24.7791C12.0993 24.7288 12.0711 24.6607 12.0711 24.5897V16.5864H9.55457C9.48353 16.5864 9.4154 16.5581 9.36517 16.5079C9.31494 16.4577 9.28672 16.3895 9.28672 16.3185V13.0954C9.28672 13.0243 9.31494 12.9562 9.36517 12.906C9.4154 12.8557 9.48353 12.8275 9.55457 12.8275H12.0711V10.7181C12.0711 7.9244 13.7618 6.18922 16.484 6.18922C17.6543 6.18922 18.6885 6.27627 19.0062 6.31833C19.0706 6.32683 19.1297 6.35844 19.1725 6.40727C19.2153 6.4561 19.2389 6.51883 19.239 6.58377V9.46699Z"></path>
+              </svg></a><a class="socials__link" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15 0C23.2846 0 30 6.71544 30 15C30 23.2846 23.2846 30 15 30C6.71544 30 0 23.2846 0 15C0 6.71544 6.71544 0 15 0ZM20.1743 21.1141C20.4502 20.2676 21.7428 11.8311 21.9026 10.1687C21.9509 9.66522 21.7917 9.33065 21.48 9.1813C21.103 9 20.5448 9.09065 19.8972 9.32413C19.0089 9.64435 7.65326 14.4659 6.99717 14.745C6.375 15.0091 5.78674 15.2974 5.78674 15.7148C5.78674 16.0083 5.96087 16.1733 6.44087 16.3448C6.94044 16.5228 8.19848 16.9043 8.94131 17.1091C9.65674 17.3067 10.4713 17.1352 10.9278 16.8515C11.4117 16.5509 16.9963 12.8139 17.3974 12.4865C17.7978 12.1591 18.1174 12.5785 17.79 12.9065C17.4626 13.2339 13.6291 16.9546 13.1237 17.4698C12.51 18.0952 12.9457 18.7435 13.3572 19.003C13.8274 19.2991 17.2089 21.5674 17.7183 21.9313C18.2276 22.2952 18.7441 22.4602 19.217 22.4602C19.6898 22.4602 19.9389 21.8374 20.1743 21.1141Z"></path>
+              </svg></a><a class="socials__link" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.3387 19.0194C17.7471 18.8514 18.0946 18.5924 18.3265 18.2179C18.6442 17.7055 18.6484 17.3499 18.1279 16.9712C17.9934 16.874 17.86 16.7756 17.7266 16.6772C17.5196 16.5246 17.3127 16.372 17.1018 16.2243C16.5743 15.8539 16.0034 15.7895 15.6092 16.4385C15.5936 16.4637 15.5714 16.486 15.5496 16.508C15.5436 16.514 15.5376 16.5199 15.5319 16.526C15.3305 16.7367 15.0823 16.7899 14.8192 16.6828C13.8201 16.2768 13.0478 15.6222 12.5827 14.6471C12.3096 14.0738 12.3848 13.7861 12.8975 13.4053C12.9478 13.3682 12.9968 13.329 13.0429 13.287C13.2677 13.0847 13.3272 12.8439 13.1953 12.5716C12.894 11.9514 12.4933 11.3984 11.987 10.921C11.804 10.748 11.5856 10.6619 11.3389 10.7158C10.6936 10.8559 10.0547 11.3186 10.0362 12.1411C10.0425 12.1783 10.0463 12.2165 10.0501 12.2546C10.058 12.3333 10.0659 12.412 10.0951 12.4827C10.1486 12.612 10.2003 12.7422 10.2521 12.8726C10.4042 13.2552 10.5564 13.6382 10.7531 13.9975C12.0338 16.3349 13.9704 17.9617 16.4409 18.9935C16.7352 19.1167 17.0401 19.1426 17.3387 19.0194Z"></path>
+                <path d="M14.966 11.5321C15.0965 11.5104 15.2298 11.4999 15.3624 11.4999C16.6707 11.4999 17.7351 12.5506 17.7351 13.8428C17.7351 13.9744 17.7244 14.106 17.7025 14.2334C17.6656 14.4511 17.8145 14.6569 18.035 14.694C18.0577 14.6982 18.0804 14.6996 18.1024 14.6996C18.2967 14.6996 18.4683 14.561 18.5016 14.3657C18.5307 14.1942 18.5456 14.0178 18.5456 13.8421C18.5456 12.1096 17.1174 10.6997 15.3624 10.6997C15.1851 10.6997 15.0064 10.7144 14.8327 10.7424C14.6114 10.7788 14.4625 10.9854 14.4994 11.2031C14.5363 11.4215 14.7447 11.5692 14.966 11.5321Z"></path>
+                <path d="M16.7225 14.4994C16.9458 14.4994 17.1274 14.3202 17.1274 14.0997C17.1274 12.9972 16.2183 12.0998 15.1021 12.1005C14.8788 12.1005 14.6972 12.2797 14.6972 12.5002C14.6972 12.7207 14.8788 12.8999 15.1021 12.8999C15.7723 12.8999 16.3176 13.4382 16.3176 14.0997C16.3176 14.3202 16.4991 14.4994 16.7225 14.4994Z"></path>
+                <path d="M19.4596 14.8991C19.6454 14.8991 19.8121 14.7738 19.8546 14.5876C19.927 14.2747 19.9638 13.9513 19.9638 13.6265C19.9638 11.2409 17.9975 9.29972 15.5808 9.29972C15.2518 9.29972 14.9241 9.33542 14.6065 9.40752C14.3881 9.45582 14.2512 9.67003 14.3008 9.88563C14.3498 10.1012 14.5682 10.237 14.7852 10.1873C15.044 10.1292 15.3106 10.0998 15.5794 10.0998C17.55 10.0998 19.1526 11.6826 19.1526 13.6272C19.1526 13.8918 19.1228 14.1557 19.064 14.4112C19.0143 14.6261 19.1512 14.8403 19.3696 14.8893C19.3994 14.8956 19.4299 14.8991 19.4596 14.8991Z"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30ZM20.6424 8.52201C21.4842 9.09392 22.0578 9.90243 22.3479 10.9238C22.774 12.4281 22.8974 14.0913 22.7244 16.0079C22.6258 17.0979 22.3621 18.0597 21.9189 18.9473C21.4941 19.7978 20.7864 20.432 19.817 20.8317C18.7576 21.2678 17.633 21.3603 16.6622 21.4128C15.8609 21.4555 15.0546 21.4856 14.2654 21.501C14.2221 21.5018 14.1969 21.5023 14.1748 21.511C14.1442 21.5229 14.1197 21.5505 14.0612 21.6165L11.7516 23.8341C11.6409 23.9405 11.4927 24 11.3382 24C11.0105 24 10.7453 23.7382 10.7453 23.4148V20.9437C10.6227 20.8905 10.4823 20.8401 10.3362 20.789C10.044 20.6868 9.74336 20.5811 9.50722 20.4348C8.58254 19.8608 7.95993 18.9865 7.60396 17.7636C7.23806 16.5092 7.12247 15.1553 7.25011 13.6258C7.30542 12.9643 7.40044 12.2706 7.54227 11.5034C7.83371 9.92273 8.78818 8.75511 10.3787 8.0341C11.1907 7.66589 12.0799 7.43769 13.2613 7.29488C14.5207 7.14298 15.8432 7.17308 17.3032 7.38798C18.3584 7.54339 19.5802 7.79959 20.6424 8.52201Z"></path>
+              </svg></a><a class="socials__link" href="" target="_blank">
+              <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.3699 11.3615C12.3566 11.3615 12.3434 11.3615 12.3302 11.3615C12.2002 11.3615 11.9916 11.409 11.8135 11.6027C11.8013 11.6163 11.7875 11.6311 11.7724 11.6473C11.5714 11.8639 11.1394 12.3292 11.1394 13.215C11.1394 14.164 11.8296 15.084 11.9265 15.2107C11.9337 15.2204 11.9472 15.2405 11.9668 15.2697C12.2116 15.6332 13.409 17.4115 15.2285 18.1281C16.7032 18.7087 17.1161 18.6597 17.4457 18.6205C17.4803 18.6164 17.514 18.6124 17.548 18.6093C17.9016 18.5787 18.6899 18.1431 18.8505 17.6927C19.011 17.2416 19.011 16.8548 18.9609 16.7735C18.9217 16.7103 18.8319 16.6669 18.6975 16.602C18.6648 16.5861 18.6294 16.5691 18.5915 16.5501C18.3978 16.4532 17.448 15.9854 17.2699 15.9217C17.0944 15.858 16.965 15.8245 16.8383 16.0182C16.7083 16.2119 16.3401 16.6468 16.2251 16.7735C16.1133 16.9035 16.0011 16.9186 15.8074 16.8218C15.7757 16.8059 15.7324 16.7872 15.679 16.7641C15.4065 16.6462 14.8703 16.4143 14.2535 15.8633C13.6796 15.3524 13.2913 14.7195 13.1795 14.5265C13.0677 14.3334 13.1677 14.2272 13.2646 14.1304C13.3233 14.0738 13.3903 13.9928 13.4573 13.9119C13.4903 13.872 13.5233 13.8321 13.5553 13.7952C13.6379 13.6936 13.6734 13.6204 13.7244 13.5152C13.7312 13.5013 13.7382 13.4867 13.7457 13.4715C13.8127 13.3447 13.7786 13.2306 13.7305 13.1338C13.7106 13.0938 13.6348 12.907 13.5406 12.6747C13.4069 12.3451 13.2361 11.9239 13.1351 11.7005C12.9901 11.38 12.8387 11.3699 12.6996 11.3666C12.5989 11.3614 12.4839 11.3614 12.3699 11.3615Z"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30ZM7.2 15C7.2 10.6924 10.6924 7.2 15 7.2C19.3076 7.2 22.8 10.6924 22.8 15C22.8 19.3076 19.3076 22.8 15 22.8C13.6002 22.8 12.2891 22.4263 11.1533 21.7806L7.26982 22.8L8.31211 18.9978C7.61102 17.8275 7.2 16.4633 7.2 15Z"></path>
+              </svg></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+    </div>
+<div class="mobile-menu">
+  <div class="mobile-menu__wrap">
+    <div class="mobile-menu__top"> <a class="header__logo single-anchors img-wrap" href="index.html#home">
+        <div><img src="assets/images/svg/logo.svg" alt=""></div></a>
+      <div class="header__phone"><a href="tel:380976425230"> 
+          <p>+38 (097) 642 52 30</p></a></div>
+      <div class="mobile-menu__act mobile-menu__act--close">
+        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path opacity="0.79" fill-rule="evenodd" clip-rule="evenodd" d="M15 1.5L13.5 0L7.5 6L1.5 0L0 1.5L6 7.5L0 13.5L1.5 15L7.5 9L13.5 15L15 13.5L9 7.5L15 1.5Z"></path>
+        </svg>
+      </div>
+    </div>
+    <div class="mobile-menu__body">
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__nav-list">
+          <li class="mobile-menu__nav-item mobile-menu__nav-item--drop">
+            <div class="mobile-menu__nav-link">
+              <p> <a href="#">Стоматологія</a></p>
+              <div class="mobile-menu__nav-arrow">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+            <ul class="mobile-menu__drop">
+              <li class="mobile-menu__drop-item mobile-menu__drop-item--drop2">
+                <div class="mobile-menu__drop-link"> 
+                  <p> <a href="#">Протезування зубів</a></p>
+                  <div class="mobile-menu__nav-arrow2">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="mobile-menu__drop2"> 
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Лікування карієсу</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Пломбування зубів</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Художня реставрація</a></li>
+                </ul>
+              </li>
+              <li class="mobile-menu__drop-item mobile-menu__drop-item--drop2">
+                <div class="mobile-menu__drop-link"> 
+                  <p> <a href="#">Імплантація зубів</a></p>
+                  <div class="mobile-menu__nav-arrow2">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="mobile-menu__drop2"> 
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Лікування карієсу</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Пломбування зубів</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Художня реставрація</a></li>
+                </ul>
+              </li>
+              <li class="mobile-menu__drop-item mobile-menu__drop-item--drop2">
+                <div class="mobile-menu__drop-link"> 
+                  <p> <a href="#">Лікування зубів</a></p>
+                  <div class="mobile-menu__nav-arrow2">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="mobile-menu__drop2"> 
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Лікування карієсу</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Пломбування зубів</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Художня реставрація</a></li>
+                </ul>
+              </li>
+              <li class="mobile-menu__drop-item mobile-menu__drop-item--drop2">
+                <div class="mobile-menu__drop-link"> 
+                  <p><a href="#">Хірургічна стоматологія</a></p>
+                  <div class="mobile-menu__nav-arrow2"> 
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="mobile-menu__drop2"> 
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Лікування карієсу</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Пломбування зубів</a></li>
+                  <li class="mobile-menu__drop2-item"> <a class="mobile-menu__drop2-link" href="#">Художня реставрація</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-menu__nav-item mobile-menu__nav-item--drop">
+            <div class="mobile-menu__nav-link">
+              <p> <a href="#">косметологія</a></p>
+              <div class="mobile-menu__nav-arrow">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8 4L16 11.5789L8 20" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </div>
+            </div>
+            <ul class="mobile-menu__drop">
+              <li class="mobile-menu__drop-item"> <a class="mobile-menu__drop-link" href="#">Протезування зубів</a></li>
+              <li class="mobile-menu__drop-item"> <a class="mobile-menu__drop-link" href="#">Імплантація зубів</a></li>
+              <li class="mobile-menu__drop-item"> <a class="mobile-menu__drop-link" href="#">Лікування зубів</a></li>
+            </ul>
+          </li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="">Про нас</a></li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="">Портфоліо</a></li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="">Новини</a></li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__bottom">
+        <div class="mobile-menu__phones">
+          <svg viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10 20.5C15.5228 20.5 20 16.0228 20 10.5C20 4.97715 15.5228 0.5 10 0.5C4.47715 0.5 0 4.97715 0 10.5C0 16.0228 4.47715 20.5 10 20.5ZM6.12671 4.66667C5.52012 4.66667 4.17233 6.14922 4.17233 6.14922C3.96996 11.3379 9.22686 16.5277 14.3486 16.3254C14.3486 16.3254 15.8987 15.0449 15.8312 14.371C15.7638 13.6971 14.3486 12.8212 13.4725 12.6189C12.7969 12.3937 12.3095 12.7329 11.9708 12.9686C11.9041 13.015 11.8432 13.0574 11.7877 13.0907C11.5182 13.2928 11.3159 13.495 11.3159 13.495C9.76573 12.9559 7.60926 10.7993 7.07015 9.18194C7.07015 9.18194 7.20493 8.97971 7.40717 8.71015C7.42313 8.68886 7.4412 8.66546 7.46084 8.64003C7.68982 8.3435 8.13255 7.77015 7.94628 7.02535C7.67675 6.21671 6.80058 4.73413 6.12671 4.66667Z" fill="#F7E07A"></path>
+          </svg><a class="mobile-menu__phones-link" href="tel:380976425230">+38 (097) 642 52 30</a>
+        </div>
+        <div class="mobile-menu__socials"> 
+          <div class="socials">
+            <div class="socials__box"><a class="socials__link" href="" target="_blank">
+                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M15 0C23.2846 0 30 6.71544 30 15C30 23.2846 23.2846 30 15 30C6.71544 30 0 23.2846 0 15C0 6.71544 6.71544 0 15 0ZM20.1743 21.1141C20.4502 20.2676 21.7428 11.8311 21.9026 10.1687C21.9509 9.66522 21.7917 9.33065 21.48 9.1813C21.103 9 20.5448 9.09065 19.8972 9.32413C19.0089 9.64435 7.65326 14.4659 6.99717 14.745C6.375 15.0091 5.78674 15.2974 5.78674 15.7148C5.78674 16.0083 5.96087 16.1733 6.44087 16.3448C6.94044 16.5228 8.19848 16.9043 8.94131 17.1091C9.65674 17.3067 10.4713 17.1352 10.9278 16.8515C11.4117 16.5509 16.9963 12.8139 17.3974 12.4865C17.7978 12.1591 18.1174 12.5785 17.79 12.9065C17.4626 13.2339 13.6291 16.9546 13.1237 17.4698C12.51 18.0952 12.9457 18.7435 13.3572 19.003C13.8274 19.2991 17.2089 21.5674 17.7183 21.9313C18.2276 22.2952 18.7441 22.4602 19.217 22.4602C19.6898 22.4602 19.9389 21.8374 20.1743 21.1141Z"></path>
+                </svg></a><a class="socials__link" href="" target="_blank">
+                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.3387 19.0194C17.7471 18.8514 18.0946 18.5924 18.3265 18.2179C18.6442 17.7055 18.6484 17.3499 18.1279 16.9712C17.9934 16.874 17.86 16.7756 17.7266 16.6772C17.5196 16.5246 17.3127 16.372 17.1018 16.2243C16.5743 15.8539 16.0034 15.7895 15.6092 16.4385C15.5936 16.4637 15.5714 16.486 15.5496 16.508C15.5436 16.514 15.5376 16.5199 15.5319 16.526C15.3305 16.7367 15.0823 16.7899 14.8192 16.6828C13.8201 16.2768 13.0478 15.6222 12.5827 14.6471C12.3096 14.0738 12.3848 13.7861 12.8975 13.4053C12.9478 13.3682 12.9968 13.329 13.0429 13.287C13.2677 13.0847 13.3272 12.8439 13.1953 12.5716C12.894 11.9514 12.4933 11.3984 11.987 10.921C11.804 10.748 11.5856 10.6619 11.3389 10.7158C10.6936 10.8559 10.0547 11.3186 10.0362 12.1411C10.0425 12.1783 10.0463 12.2165 10.0501 12.2546C10.058 12.3333 10.0659 12.412 10.0951 12.4827C10.1486 12.612 10.2003 12.7422 10.2521 12.8726C10.4042 13.2552 10.5564 13.6382 10.7531 13.9975C12.0338 16.3349 13.9704 17.9617 16.4409 18.9935C16.7352 19.1167 17.0401 19.1426 17.3387 19.0194Z"></path>
+                  <path d="M14.966 11.5321C15.0965 11.5104 15.2298 11.4999 15.3624 11.4999C16.6707 11.4999 17.7351 12.5506 17.7351 13.8428C17.7351 13.9744 17.7244 14.106 17.7025 14.2334C17.6656 14.4511 17.8145 14.6569 18.035 14.694C18.0577 14.6982 18.0804 14.6996 18.1024 14.6996C18.2967 14.6996 18.4683 14.561 18.5016 14.3657C18.5307 14.1942 18.5456 14.0178 18.5456 13.8421C18.5456 12.1096 17.1174 10.6997 15.3624 10.6997C15.1851 10.6997 15.0064 10.7144 14.8327 10.7424C14.6114 10.7788 14.4625 10.9854 14.4994 11.2031C14.5363 11.4215 14.7447 11.5692 14.966 11.5321Z"></path>
+                  <path d="M16.7225 14.4994C16.9458 14.4994 17.1274 14.3202 17.1274 14.0997C17.1274 12.9972 16.2183 12.0998 15.1021 12.1005C14.8788 12.1005 14.6972 12.2797 14.6972 12.5002C14.6972 12.7207 14.8788 12.8999 15.1021 12.8999C15.7723 12.8999 16.3176 13.4382 16.3176 14.0997C16.3176 14.3202 16.4991 14.4994 16.7225 14.4994Z"></path>
+                  <path d="M19.4596 14.8991C19.6454 14.8991 19.8121 14.7738 19.8546 14.5876C19.927 14.2747 19.9638 13.9513 19.9638 13.6265C19.9638 11.2409 17.9975 9.29972 15.5808 9.29972C15.2518 9.29972 14.9241 9.33542 14.6065 9.40752C14.3881 9.45582 14.2512 9.67003 14.3008 9.88563C14.3498 10.1012 14.5682 10.237 14.7852 10.1873C15.044 10.1292 15.3106 10.0998 15.5794 10.0998C17.55 10.0998 19.1526 11.6826 19.1526 13.6272C19.1526 13.8918 19.1228 14.1557 19.064 14.4112C19.0143 14.6261 19.1512 14.8403 19.3696 14.8893C19.3994 14.8956 19.4299 14.8991 19.4596 14.8991Z"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30ZM20.6424 8.52201C21.4842 9.09392 22.0578 9.90243 22.3479 10.9238C22.774 12.4281 22.8974 14.0913 22.7244 16.0079C22.6258 17.0979 22.3621 18.0597 21.9189 18.9473C21.4941 19.7978 20.7864 20.432 19.817 20.8317C18.7576 21.2678 17.633 21.3603 16.6622 21.4128C15.8609 21.4555 15.0546 21.4856 14.2654 21.501C14.2221 21.5018 14.1969 21.5023 14.1748 21.511C14.1442 21.5229 14.1197 21.5505 14.0612 21.6165L11.7516 23.8341C11.6409 23.9405 11.4927 24 11.3382 24C11.0105 24 10.7453 23.7382 10.7453 23.4148V20.9437C10.6227 20.8905 10.4823 20.8401 10.3362 20.789C10.044 20.6868 9.74336 20.5811 9.50722 20.4348C8.58254 19.8608 7.95993 18.9865 7.60396 17.7636C7.23806 16.5092 7.12247 15.1553 7.25011 13.6258C7.30542 12.9643 7.40044 12.2706 7.54227 11.5034C7.83371 9.92273 8.78818 8.75511 10.3787 8.0341C11.1907 7.66589 12.0799 7.43769 13.2613 7.29488C14.5207 7.14298 15.8432 7.17308 17.3032 7.38798C18.3584 7.54339 19.5802 7.79959 20.6424 8.52201Z"></path>
+                </svg></a><a class="socials__link" href="" target="_blank">
+                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.3699 11.3615C12.3566 11.3615 12.3434 11.3615 12.3302 11.3615C12.2002 11.3615 11.9916 11.409 11.8135 11.6027C11.8013 11.6163 11.7875 11.6311 11.7724 11.6473C11.5714 11.8639 11.1394 12.3292 11.1394 13.215C11.1394 14.164 11.8296 15.084 11.9265 15.2107C11.9337 15.2204 11.9472 15.2405 11.9668 15.2697C12.2116 15.6332 13.409 17.4115 15.2285 18.1281C16.7032 18.7087 17.1161 18.6597 17.4457 18.6205C17.4803 18.6164 17.514 18.6124 17.548 18.6093C17.9016 18.5787 18.6899 18.1431 18.8505 17.6927C19.011 17.2416 19.011 16.8548 18.9609 16.7735C18.9217 16.7103 18.8319 16.6669 18.6975 16.602C18.6648 16.5861 18.6294 16.5691 18.5915 16.5501C18.3978 16.4532 17.448 15.9854 17.2699 15.9217C17.0944 15.858 16.965 15.8245 16.8383 16.0182C16.7083 16.2119 16.3401 16.6468 16.2251 16.7735C16.1133 16.9035 16.0011 16.9186 15.8074 16.8218C15.7757 16.8059 15.7324 16.7872 15.679 16.7641C15.4065 16.6462 14.8703 16.4143 14.2535 15.8633C13.6796 15.3524 13.2913 14.7195 13.1795 14.5265C13.0677 14.3334 13.1677 14.2272 13.2646 14.1304C13.3233 14.0738 13.3903 13.9928 13.4573 13.9119C13.4903 13.872 13.5233 13.8321 13.5553 13.7952C13.6379 13.6936 13.6734 13.6204 13.7244 13.5152C13.7312 13.5013 13.7382 13.4867 13.7457 13.4715C13.8127 13.3447 13.7786 13.2306 13.7305 13.1338C13.7106 13.0938 13.6348 12.907 13.5406 12.6747C13.4069 12.3451 13.2361 11.9239 13.1351 11.7005C12.9901 11.38 12.8387 11.3699 12.6996 11.3666C12.5989 11.3614 12.4839 11.3614 12.3699 11.3615Z"></path>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30ZM7.2 15C7.2 10.6924 10.6924 7.2 15 7.2C19.3076 7.2 22.8 10.6924 22.8 15C22.8 19.3076 19.3076 22.8 15 22.8C13.6002 22.8 12.2891 22.4263 11.1533 21.7806L7.26982 22.8L8.31211 18.9978C7.61102 17.8275 7.2 16.4633 7.2 15Z"></path>
+                </svg></a></div>
+            <div class="socials__box"><a class="socials__link" href="" target="_blank">
+                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_801_1607m1)">
+                    <path d="M21.0906 10.3922C20.9605 10.0551 20.7611 9.74897 20.5055 9.49358C20.2498 9.23819 19.9435 9.03918 19.6063 8.90938C19.1419 8.73738 18.6514 8.64648 18.1562 8.64063C17.3328 8.60313 17.0859 8.59375 15 8.59375C12.9141 8.59375 12.6672 8.60313 11.8438 8.64063C11.3481 8.6463 10.857 8.73721 10.3922 8.90938C10.0551 9.03954 9.74897 9.23887 9.49358 9.49452C9.23819 9.75018 9.03918 10.0565 8.90938 10.3937C8.73738 10.8581 8.64648 11.3486 8.64063 11.8438C8.60313 12.6672 8.59375 12.9141 8.59375 15C8.59375 17.0859 8.60313 17.3328 8.64063 18.1562C8.6463 18.6519 8.73721 19.143 8.90938 19.6078C9.03954 19.9449 9.23887 20.251 9.49452 20.5064C9.75018 20.7618 10.0565 20.9608 10.3937 21.0906C10.8581 21.2626 11.3486 21.3535 11.8438 21.3594C12.6672 21.3969 12.9141 21.4062 15 21.4062C17.0859 21.4062 17.3328 21.3969 18.1562 21.3594C18.6519 21.3537 19.143 21.2628 19.6078 21.0906C19.9449 20.9605 20.251 20.7611 20.5064 20.5055C20.7618 20.2498 20.9608 19.9435 21.0906 19.6063C21.2626 19.1419 21.3535 18.6514 21.3594 18.1562C21.3969 17.3328 21.4062 17.0859 21.4062 15C21.4062 12.9141 21.3969 12.6672 21.3594 11.8438C21.3537 11.3481 21.2628 10.857 21.0906 10.3922ZM15 19.0125C14.2064 19.0125 13.4306 18.7772 12.7708 18.3363C12.1109 17.8954 11.5966 17.2687 11.2929 16.5355C10.9892 15.8023 10.9098 14.9955 11.0646 14.2172C11.2194 13.4389 11.6016 12.7239 12.1627 12.1627C12.7239 11.6016 13.4389 11.2194 14.2172 11.0646C14.9955 10.9098 15.8023 10.9892 16.5355 11.2929C17.2687 11.5966 17.8954 12.1109 18.3363 12.7708C18.7772 13.4306 19.0125 14.2064 19.0125 15C19.0125 16.0642 18.5898 17.0848 17.8373 17.8373C17.0848 18.5898 16.0642 19.0125 15 19.0125ZM19.1703 11.7672C18.9849 11.7672 18.8036 11.7122 18.6495 11.6092C18.4953 11.5062 18.3751 11.3598 18.3042 11.1885C18.2332 11.0171 18.2147 10.8286 18.2508 10.6468C18.287 10.4649 18.3763 10.2979 18.5074 10.1668C18.6385 10.0357 18.8056 9.94637 18.9874 9.9102C19.1693 9.87403 19.3578 9.89259 19.5291 9.96355C19.7004 10.0345 19.8468 10.1547 19.9498 10.3088C20.0528 10.463 20.1078 10.6443 20.1078 10.8297C20.1078 11.0783 20.009 11.3168 19.8332 11.4926C19.6574 11.6684 19.419 11.7672 19.1703 11.7672Z"></path>
+                    <path d="M14.9992 17.6039C16.4377 17.6039 17.6039 16.4377 17.6039 14.9992C17.6039 13.5607 16.4377 12.3945 14.9992 12.3945C13.5607 12.3945 12.3945 13.5607 12.3945 14.9992C12.3945 16.4377 13.5607 17.6039 14.9992 17.6039Z"></path>
+                    <path d="M15 0C12.0333 0 9.13319 0.879735 6.66645 2.52796C4.19972 4.17618 2.27713 6.51886 1.14181 9.25975C0.00649923 12.0006 -0.290551 15.0166 0.288228 17.9264C0.867006 20.8361 2.29562 23.5088 4.3934 25.6066C6.49119 27.7044 9.16394 29.133 12.0737 29.7118C14.9834 30.2906 17.9994 29.9935 20.7403 28.8582C23.4811 27.7229 25.8238 25.8003 27.472 23.3336C29.1203 20.8668 30 17.9667 30 15C30 11.0218 28.4197 7.20644 25.6066 4.3934C22.7936 1.58035 18.9783 0 15 0V0ZM22.7656 18.2219C22.7522 18.8697 22.6291 19.5105 22.4016 20.1172C22.2009 20.6361 21.8941 21.1073 21.5007 21.5007C21.1073 21.894 20.6361 22.2009 20.1172 22.4016C19.5105 22.6291 18.8697 22.7522 18.2219 22.7656C17.3875 22.8031 17.1219 22.8125 15 22.8125C12.8781 22.8125 12.6125 22.8031 11.7781 22.7656C11.1303 22.7522 10.4895 22.6291 9.88282 22.4016C9.36395 22.2009 8.89272 21.894 8.49934 21.5007C8.10596 21.1073 7.79911 20.6361 7.59844 20.1172C7.37088 19.5105 7.24779 18.8697 7.23438 18.2219C7.19688 17.3875 7.18751 17.1219 7.18751 15C7.18751 12.8781 7.19688 12.6125 7.23438 11.7781C7.24779 11.1303 7.37088 10.4895 7.59844 9.88281C7.79911 9.36394 8.10596 8.89271 8.49934 8.49933C8.89272 8.10596 9.36395 7.7991 9.88282 7.59844C10.4895 7.37088 11.1303 7.24778 11.7781 7.23438C12.6125 7.19688 12.8781 7.1875 15 7.1875C17.1219 7.1875 17.3875 7.19688 18.2219 7.23438C18.8697 7.24778 19.5105 7.37088 20.1172 7.59844C20.6361 7.7991 21.1073 8.10596 21.5007 8.49933C21.8941 8.89271 22.2009 9.36394 22.4016 9.88281C22.6291 10.4895 22.7522 11.1303 22.7656 11.7781C22.8031 12.6125 22.8125 12.8781 22.8125 15C22.8125 17.1219 22.8031 17.3875 22.7656 18.2219Z"></path>
+                  </g>
+                  <defs>
+                    <clippath id="clip0_801_1607m1">
+                      <rect fill="white" height="100" width="100"></rect>
+                    </clippath>
+                  </defs>
+                </svg></a><a class="socials__link" href="" target="_blank">
+                <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M14.9988 -0.00390625C6.726 -0.00390625 -0.00390625 6.72627 -0.00390625 14.9988C-0.00390625 23.2715 6.726 30.002 14.9988 30.002C23.271 30.002 30.0014 23.2715 30.0014 14.9988C30.0014 6.72627 23.271 -0.00390625 14.9988 -0.00390625ZM19.239 9.46699C19.239 9.53803 19.2107 9.60616 19.1605 9.65639C19.1103 9.70662 19.0421 9.73484 18.9711 9.73484L17.2656 9.73592C16.1404 9.73592 15.9347 10.1741 15.9347 11.0372V12.8275H18.8597C18.9365 12.8275 19.0099 12.8607 19.0606 12.9186C19.1112 12.9765 19.1348 13.0533 19.1254 13.1297L18.7089 16.3528C18.7005 16.4174 18.669 16.4767 18.6201 16.5197C18.5711 16.5627 18.5083 16.5864 18.4431 16.5864H15.9347V24.5897C15.9347 24.6607 15.9064 24.7288 15.8562 24.7791C15.806 24.8293 15.7378 24.8575 15.6668 24.8575H12.339C12.2679 24.8575 12.1998 24.8293 12.1495 24.7791C12.0993 24.7288 12.0711 24.6607 12.0711 24.5897V16.5864H9.55457C9.48353 16.5864 9.4154 16.5581 9.36517 16.5079C9.31494 16.4577 9.28672 16.3895 9.28672 16.3185V13.0954C9.28672 13.0243 9.31494 12.9562 9.36517 12.906C9.4154 12.8557 9.48353 12.8275 9.55457 12.8275H12.0711V10.7181C12.0711 7.9244 13.7618 6.18922 16.484 6.18922C17.6543 6.18922 18.6885 6.27627 19.0062 6.31833C19.0706 6.32683 19.1297 6.35844 19.1725 6.40727C19.2153 6.4561 19.2389 6.51883 19.239 6.58377V9.46699Z"></path>
+                </svg></a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="thank">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('thank')">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="popup__inner">
+      <div class="popup__inner-wrap"> 
+        <div class="popup__inner-left">
+          <div class="popup__img img-wrap">
+            <div>
+              <picture>
+                <source srcset="assets/images/png/popup-img.webp" type="image/webp"><img src="assets/images/png/popup-img.png" alt="">
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div class="popup__inner-right">
+          <div class="popup__simple-title simple-title simple-title--center">Запит надіслано!</div>
+          <div class="popup__content content"> 
+            <p>Ми цінуємо вашу довіру й неодмінно зконтактуємо з вами</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="form">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('form')">
+      <div></div>
+      <div></div>
+    </div>
+    <div class="popup__inner">
+      <div class="form__wrap">
+        <div class="form__left">
+          <h2 class="form__simple-title simple-title">Будемо раді бачити вас у нашій клініці!</h2>
+          <div class="form__content content"> 
+            <p>Залиште свій номер телефону і ми неодмінно зконтактуємось з вами!</p>
+          </div>
+          <form class="inputs" action="/action_page.php" autocomplete="off">
+            <div class="inputs__field-wrap">
+              <input class="inputs__field" id="popup-text" type="text" name="text" autocomplete="off" required="" minlength="2">
+              <label class="inputs__label" for="popup-text"><span class="inputs__content">Ваше імʼя</span></label>
+            </div>
+            <div class="inputs__field-wrap">
+              <input class="inputs__field" id="popup-tel" type="tel" name="tel" autocomplete="off" required="">
+              <label class="inputs__label" for="popup-tel"><span class="inputs__content">Ваш телефон</span></label>
+            </div>
+            <div class="inputs__field-wrap inputs__field-wrap--textarea">
+              <textarea class="inputs__field inputs__field--valid" id="popup-textarea" name="textarea"></textarea>
+              <label class="inputs__label" for="popup-textarea"><span class="inputs__content">Ваше повідомлення <b>(необовʼязково)</b></span></label>
+            </div>
+            <div class="inputs__btn">
+              <button class="btn" type="submit"><span class="btn__title">Надіслати</span></button>
+            </div>
+          </form>
+          <div class="form__politics content">
+            <p>Натискаючи на кнопку, ви даєте згоду на обробку персональних даних та погоджуєтесь з <a href="/terms.html">політикою конфіденційності</a></p>
+          </div>
+        </div>
+        <div class="form__right">
+          <picture>
+            <source srcset="assets/images/png/form-img2.webp" type="image/webp"><img src="assets/images/png/form-img2.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/app.js?v=1669196612365"></script></body>
+</html>
